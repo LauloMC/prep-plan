@@ -1,0 +1,4487 @@
+{
+ "version": "2026-10-06",
+ "stage": {
+  "start": "2027-04-17",
+  "end": "2027-05-03"
+ },
+ "weeks": [
+  {
+   "num": 1,
+   "bloc": "1 Base 1",
+   "goal": "Apprendre les mouvements, charges modérées, aucune série à l'échec.",
+   "detailed": true,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2026-10-05",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "50 min",
+     "goal": "Tractions (force excentrique), dos, bras, prise.",
+     "blocks": [
+      {
+       "title": "Échauffement (8 min)",
+       "items": [
+        {
+         "ex": "Pull-apart élastique 10 kg",
+         "id": "pull_apart",
+         "sets": "2 × 15",
+         "rest": "—",
+         "note": "Bras tendus, omoplates serrées 1 s."
+        },
+        {
+         "ex": "Dislocations d'épaules élastique 10 kg",
+         "id": "dislocation",
+         "sets": "2 × 10",
+         "rest": "—",
+         "note": "Prise large, lent."
+        },
+        {
+         "ex": "Scapula pull-ups",
+         "id": "scap_pullup",
+         "sets": "2 × 8",
+         "rest": "30 s",
+         "note": "Pas de flexion des coudes."
+        },
+        {
+         "ex": "Suspension à la barre",
+         "id": "hang",
+         "sets": "2 × 15 s",
+         "rest": "30 s",
+         "note": "Épaules actives."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 1 — Tractions (force)",
+       "items": [
+        {
+         "ex": "Tractions négatives",
+         "id": "neg",
+         "sets": "4 × 3 (descente 5 s)",
+         "rest": "2 min",
+         "note": "Si la descente passe sous 3 s, arrêter le bloc."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 2 — Tirage horizontal",
+       "items": [
+        {
+         "ex": "Rowing 1 bras (haltère ou sac par la poignée)",
+         "id": "row",
+         "sets": "3 × 10 / bras — 10 kg",
+         "rest": "90 s",
+         "note": "Coude vers la hanche, pas de rotation du buste."
+        },
+        {
+         "ex": "Tirage élastique 15 kg assis",
+         "id": "row_band",
+         "sets": "3 × 12",
+         "rest": "60 s",
+         "note": "Buste droit, 1 s omoplates serrées."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 3 — Épaules arrière & bras",
+       "items": [
+        {
+         "ex": "Face pull élastique 10 kg",
+         "id": "facepull",
+         "sets": "3 × 15",
+         "rest": "45 s",
+         "note": "Coudes hauts."
+        },
+        {
+         "ex": "Curl biceps élastique 15 kg ou haltères 2 × 5 kg",
+         "id": "curl",
+         "sets": "3 × 12",
+         "rest": "60 s",
+         "note": "Descente 3 s."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 4 — Prise & avant-bras",
+       "items": [
+        {
+         "ex": "Suspension à la barre",
+         "id": "hang",
+         "sets": "3 × (max − 5 s)",
+         "rest": "90 s",
+         "note": "Chrono, noter le temps."
+        },
+        {
+         "ex": "Farmer's walk (2 haltères ou 2 sacs)",
+         "id": "farmer",
+         "sets": "3 × 40 m — 2 × 10 kg",
+         "rest": "60 s",
+         "note": "Épaules basses, pas rapides."
+        }
+       ]
+      },
+      {
+       "title": "Retour au calme (3 min)",
+       "items": [
+        {
+         "ex": "Étirement pectoraux + dorsaux",
+         "id": "stretch",
+         "sets": "2 × 30 s chacun",
+         "rest": "—",
+         "note": ""
+        }
+       ]
+      }
+     ],
+     "notes": [
+      "Pas d'échec. Sans haltères : rowing = sac 10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2026-10-06",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "séance Hyrox",
+     "goal": "Rien d'autre.",
+     "blocks": [
+      {
+       "title": "Option matin (5 min)",
+       "items": [
+        {
+         "ex": "Pompes faciles",
+         "id": "ggt",
+         "sets": "2 × 6",
+         "rest": "2 min",
+         "note": "Sauter si fatigue."
+        }
+       ]
+      },
+      {
+       "title": "Autour de l'Hyrox",
+       "items": [
+        {
+         "ex": "Avant : ~50 g glucides 1–2 h avant · Après : whey 25–30 g + glucides",
+         "id": "hyrox",
+         "sets": "—",
+         "rest": "—",
+         "note": ""
+        }
+       ]
+      }
+     ],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2026-10-07",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "45 min",
+     "goal": "Pompes (volume), épaules, trapèzes, cou, gainage.",
+     "blocks": [
+      {
+       "title": "Échauffement (6 min)",
+       "items": [
+        {
+         "ex": "Cercles de bras, rotations de cou lentes",
+         "id": "stretch",
+         "sets": "1 min",
+         "rest": "—",
+         "note": ""
+        },
+        {
+         "ex": "Scap push-ups",
+         "id": "scap_pushup",
+         "sets": "2 × 10",
+         "rest": "30 s",
+         "note": ""
+        },
+        {
+         "ex": "Pompes sur les genoux",
+         "id": "pushup",
+         "sets": "1 × 8",
+         "rest": "—",
+         "note": "Amplitude complète."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 1 — Pompes",
+       "items": [
+        {
+         "ex": "Pompes strictes, menton au sol",
+         "id": "pushup",
+         "sets": "5 × 6",
+         "rest": "90 s",
+         "note": "~60 % du max par série. Si une série casse : finir sur les genoux, −1 rep à la suivante."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 2 — Épaules",
+       "items": [
+        {
+         "ex": "Pike push-ups (pieds sur chaise)",
+         "id": "pike",
+         "sets": "3 × 6",
+         "rest": "90 s",
+         "note": "Variante haltères : développé assis 2 × 5 kg, 3 × 8."
+        },
+        {
+         "ex": "Élévations latérales",
+         "id": "lateral",
+         "sets": "3 × 12 — 2–3 kg",
+         "rest": "60 s",
+         "note": "Jusqu'à l'horizontale, descente 2 s."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 3 — Trapèzes & cou",
+       "items": [
+        {
+         "ex": "Shrugs (haltères 2 × 10 kg ou sac 10 kg)",
+         "id": "shrug",
+         "sets": "3 × 15 (+ 5 s en haut) — 2 × 10 kg",
+         "rest": "60 s",
+         "note": "Tenir 5 s en haut."
+        },
+        {
+         "ex": "Cou isométrique 4 directions",
+         "id": "neck",
+         "sets": "2 × 20 s / direction",
+         "rest": "20 s",
+         "note": "Intensité 50 %."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 4 — Gainage",
+       "items": [
+        {
+         "ex": "Touchers d'épaules, gilet 6 kg",
+         "id": "touch",
+         "sets": "3 × 16 — gilet 6 kg",
+         "rest": "60 s",
+         "note": "Bassin immobile."
+        },
+        {
+         "ex": "Planche avant-bras",
+         "id": "plank",
+         "sets": "3 × 40 s",
+         "rest": "45 s",
+         "note": "Fessiers serrés."
+        }
+       ]
+      }
+     ],
+     "notes": [
+      "Jamais à l'échec : le test mesure, les séances construisent."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2026-10-08",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "séance Hyrox",
+     "goal": "Si Hyrox vendredi : faire la séance C aujourd'hui.",
+     "blocks": [
+      {
+       "title": "Option matin (5 min)",
+       "items": [
+        {
+         "ex": "Pompes faciles",
+         "id": "ggt",
+         "sets": "2 × 6",
+         "rest": "2 min",
+         "note": "Sauter si fatigue."
+        }
+       ]
+      }
+     ],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2026-10-09",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "50 min",
+     "goal": "Dos léger puis marche avec sac.",
+     "blocks": [
+      {
+       "title": "Partie 1 — Dos (20 min)",
+       "items": [
+        {
+         "ex": "Rowing 1 bras léger",
+         "id": "row",
+         "sets": "3 × 12 — 8 kg",
+         "rest": "60 s",
+         "note": "Technique, pas lourd."
+        },
+        {
+         "ex": "Y-T-W allongée, 1 kg maxi",
+         "id": "ytw",
+         "sets": "2 × 8 chaque lettre",
+         "rest": "45 s",
+         "note": "Tenir 1 s."
+        },
+        {
+         "ex": "Superman",
+         "id": "superman",
+         "sets": "2 × 12",
+         "rest": "45 s",
+         "note": "Tenir 2 s."
+        },
+        {
+         "ex": "Dead bug",
+         "id": "deadbug",
+         "sets": "2 × 10 / côté",
+         "rest": "45 s",
+         "note": "Bas du dos plaqué."
+        }
+       ]
+      },
+      {
+       "title": "Partie 2 — Marche avec sac",
+       "items": [
+        {
+         "ex": "Marche",
+         "id": "walk",
+         "sets": "30 min — sac 5 kg — chaussures de sport — plat",
+         "rest": "—",
+         "note": "Sac haut et collé au dos. Noter frottements et épaules."
+        },
+        {
+         "ex": "Étirements mollets + ischios, inspection des pieds",
+         "id": "stretch",
+         "sets": "5 min",
+         "rest": "—",
+         "note": ""
+        }
+       ]
+      }
+     ],
+     "notes": [
+      "Chaussures de sport jusqu'en S5 ; rangers à partir de S6.",
+      "Si sortie longue dimanche et grosse fatigue : raccourcir à 20 min, ne pas supprimer."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2026-10-10",
+     "title": "Court",
+     "type": "short",
+     "duration": "15 min",
+     "goal": "Fréquence tractions/pompes. Si sortie longue dimanche : repos complet à la place.",
+     "blocks": [
+      {
+       "title": "Séance",
+       "items": [
+        {
+         "ex": "Suspension à la barre",
+         "id": "hang",
+         "sets": "2 × 20 s",
+         "rest": "30 s",
+         "note": ""
+        },
+        {
+         "ex": "Tractions assistées (élastique 15 kg sous un pied)",
+         "id": "assist",
+         "sets": "3 × 5 — élastique 15 kg",
+         "rest": "2 min",
+         "note": "Menton au-dessus, descente 2 s."
+        },
+        {
+         "ex": "Pompes",
+         "id": "pushup",
+         "sets": "3 × 6",
+         "rest": "90 s",
+         "note": "Loin de l'échec."
+        }
+       ]
+      }
+     ],
+     "notes": []
+    },
+    {
+     "day": "Dimanche",
+     "date": "2026-10-11",
+     "title": "Repos",
+     "type": "rest",
+     "duration": "0–75 min",
+     "goal": "Repos complet, ou marche 5 km sans sac à allure libre.",
+     "blocks": [],
+     "notes": []
+    }
+   ],
+   "sac": 5,
+   "km": "3 (+5 opt.)",
+   "test": "",
+   "start": "2026-10-05",
+   "end": "2026-10-11",
+   "label": "5 oct. → 11 oct."
+  },
+  {
+   "num": 2,
+   "bloc": "1 Base 1",
+   "goal": "Même structure, +1 rep partout. Première sortie longue dimanche.",
+   "detailed": true,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2026-10-12",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "50 min",
+     "goal": "Tractions (force excentrique), dos, bras, prise.",
+     "blocks": [
+      {
+       "title": "Échauffement (8 min)",
+       "items": [
+        {
+         "ex": "Pull-apart élastique 10 kg",
+         "id": "pull_apart",
+         "sets": "2 × 15",
+         "rest": "—",
+         "note": "Bras tendus, omoplates serrées 1 s."
+        },
+        {
+         "ex": "Dislocations d'épaules élastique 10 kg",
+         "id": "dislocation",
+         "sets": "2 × 10",
+         "rest": "—",
+         "note": "Prise large, lent."
+        },
+        {
+         "ex": "Scapula pull-ups",
+         "id": "scap_pullup",
+         "sets": "2 × 8",
+         "rest": "30 s",
+         "note": "Pas de flexion des coudes."
+        },
+        {
+         "ex": "Suspension à la barre",
+         "id": "hang",
+         "sets": "2 × 15 s",
+         "rest": "30 s",
+         "note": "Épaules actives."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 1 — Tractions (force)",
+       "items": [
+        {
+         "ex": "Tractions négatives",
+         "id": "neg",
+         "sets": "4 × 4 (descente 5 s)",
+         "rest": "2 min",
+         "note": "Si la descente passe sous 3 s, arrêter le bloc."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 2 — Tirage horizontal",
+       "items": [
+        {
+         "ex": "Rowing 1 bras (haltère ou sac par la poignée)",
+         "id": "row",
+         "sets": "3 × 12 / bras — 10 kg",
+         "rest": "90 s",
+         "note": "Coude vers la hanche, pas de rotation du buste."
+        },
+        {
+         "ex": "Tirage élastique 15 kg assis",
+         "id": "row_band",
+         "sets": "3 × 12",
+         "rest": "60 s",
+         "note": "Buste droit, 1 s omoplates serrées."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 3 — Épaules arrière & bras",
+       "items": [
+        {
+         "ex": "Face pull élastique 10 kg",
+         "id": "facepull",
+         "sets": "3 × 15",
+         "rest": "45 s",
+         "note": "Coudes hauts."
+        },
+        {
+         "ex": "Curl biceps élastique 15 kg ou haltères 2 × 5 kg",
+         "id": "curl",
+         "sets": "3 × 12",
+         "rest": "60 s",
+         "note": "Descente 3 s."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 4 — Prise & avant-bras",
+       "items": [
+        {
+         "ex": "Suspension à la barre",
+         "id": "hang",
+         "sets": "3 × (max − 5 s)",
+         "rest": "90 s",
+         "note": "Chrono, noter le temps."
+        },
+        {
+         "ex": "Farmer's walk (2 haltères ou 2 sacs)",
+         "id": "farmer",
+         "sets": "3 × 40 m — 2 × 10 kg",
+         "rest": "60 s",
+         "note": "Épaules basses, pas rapides."
+        }
+       ]
+      },
+      {
+       "title": "Retour au calme (3 min)",
+       "items": [
+        {
+         "ex": "Étirement pectoraux + dorsaux",
+         "id": "stretch",
+         "sets": "2 × 30 s chacun",
+         "rest": "—",
+         "note": ""
+        }
+       ]
+      }
+     ],
+     "notes": [
+      "Pas d'échec. Sans haltères : rowing = sac 10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2026-10-13",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "séance Hyrox",
+     "goal": "Rien d'autre.",
+     "blocks": [
+      {
+       "title": "Option matin (5 min)",
+       "items": [
+        {
+         "ex": "Pompes faciles",
+         "id": "ggt",
+         "sets": "2 × 6",
+         "rest": "2 min",
+         "note": "Sauter si fatigue."
+        }
+       ]
+      },
+      {
+       "title": "Autour de l'Hyrox",
+       "items": [
+        {
+         "ex": "Avant : ~50 g glucides 1–2 h avant · Après : whey 25–30 g + glucides",
+         "id": "hyrox",
+         "sets": "—",
+         "rest": "—",
+         "note": ""
+        }
+       ]
+      }
+     ],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2026-10-14",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "45 min",
+     "goal": "Pompes (volume), épaules, trapèzes, cou, gainage.",
+     "blocks": [
+      {
+       "title": "Échauffement (6 min)",
+       "items": [
+        {
+         "ex": "Cercles de bras, rotations de cou lentes",
+         "id": "stretch",
+         "sets": "1 min",
+         "rest": "—",
+         "note": ""
+        },
+        {
+         "ex": "Scap push-ups",
+         "id": "scap_pushup",
+         "sets": "2 × 10",
+         "rest": "30 s",
+         "note": ""
+        },
+        {
+         "ex": "Pompes sur les genoux",
+         "id": "pushup",
+         "sets": "1 × 8",
+         "rest": "—",
+         "note": "Amplitude complète."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 1 — Pompes",
+       "items": [
+        {
+         "ex": "Pompes strictes, menton au sol",
+         "id": "pushup",
+         "sets": "5 × 7",
+         "rest": "90 s",
+         "note": "~60 % du max par série. Si une série casse : finir sur les genoux, −1 rep à la suivante."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 2 — Épaules",
+       "items": [
+        {
+         "ex": "Pike push-ups (pieds sur chaise)",
+         "id": "pike",
+         "sets": "3 × 7",
+         "rest": "90 s",
+         "note": "Variante haltères : développé assis 2 × 5 kg, 3 × 8."
+        },
+        {
+         "ex": "Élévations latérales",
+         "id": "lateral",
+         "sets": "3 × 12 — 2–3 kg",
+         "rest": "60 s",
+         "note": "Jusqu'à l'horizontale, descente 2 s."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 3 — Trapèzes & cou",
+       "items": [
+        {
+         "ex": "Shrugs (haltères 2 × 10 kg ou sac 10 kg)",
+         "id": "shrug",
+         "sets": "3 × 15 (+ 5 s en haut) — 2 × 10 kg",
+         "rest": "60 s",
+         "note": "Tenir 5 s en haut."
+        },
+        {
+         "ex": "Cou isométrique 4 directions",
+         "id": "neck",
+         "sets": "2 × 20 s / direction",
+         "rest": "20 s",
+         "note": "Intensité 50 %."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 4 — Gainage",
+       "items": [
+        {
+         "ex": "Touchers d'épaules, gilet 6 kg",
+         "id": "touch",
+         "sets": "3 × 18 — gilet 6 kg",
+         "rest": "60 s",
+         "note": "Bassin immobile."
+        },
+        {
+         "ex": "Planche avant-bras",
+         "id": "plank",
+         "sets": "3 × 45 s",
+         "rest": "45 s",
+         "note": "Fessiers serrés."
+        }
+       ]
+      }
+     ],
+     "notes": [
+      "Jamais à l'échec : le test mesure, les séances construisent."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2026-10-15",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "séance Hyrox",
+     "goal": "Si Hyrox vendredi : faire la séance C aujourd'hui.",
+     "blocks": [
+      {
+       "title": "Option matin (5 min)",
+       "items": [
+        {
+         "ex": "Pompes faciles",
+         "id": "ggt",
+         "sets": "2 × 6",
+         "rest": "2 min",
+         "note": "Sauter si fatigue."
+        }
+       ]
+      }
+     ],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2026-10-16",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "50 min",
+     "goal": "Dos léger puis marche avec sac.",
+     "blocks": [
+      {
+       "title": "Partie 1 — Dos (20 min)",
+       "items": [
+        {
+         "ex": "Rowing 1 bras léger",
+         "id": "row",
+         "sets": "3 × 12 — 8 kg",
+         "rest": "60 s",
+         "note": "Technique, pas lourd."
+        },
+        {
+         "ex": "Y-T-W allongée, 1 kg maxi",
+         "id": "ytw",
+         "sets": "2 × 8 chaque lettre",
+         "rest": "45 s",
+         "note": "Tenir 1 s."
+        },
+        {
+         "ex": "Superman",
+         "id": "superman",
+         "sets": "2 × 12",
+         "rest": "45 s",
+         "note": "Tenir 2 s."
+        },
+        {
+         "ex": "Dead bug",
+         "id": "deadbug",
+         "sets": "2 × 10 / côté",
+         "rest": "45 s",
+         "note": "Bas du dos plaqué."
+        }
+       ]
+      },
+      {
+       "title": "Partie 2 — Marche avec sac",
+       "items": [
+        {
+         "ex": "Marche",
+         "id": "walk",
+         "sets": "35 min — sac 5 kg — chaussures de sport — plat",
+         "rest": "—",
+         "note": "Sac haut et collé au dos. Noter frottements et épaules."
+        },
+        {
+         "ex": "Étirements mollets + ischios, inspection des pieds",
+         "id": "stretch",
+         "sets": "5 min",
+         "rest": "—",
+         "note": ""
+        }
+       ]
+      }
+     ],
+     "notes": [
+      "Chaussures de sport jusqu'en S5 ; rangers à partir de S6.",
+      "Si sortie longue dimanche et grosse fatigue : raccourcir à 20 min, ne pas supprimer."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2026-10-17",
+     "title": "Court",
+     "type": "short",
+     "duration": "15 min",
+     "goal": "Fréquence tractions/pompes. Si sortie longue dimanche : repos complet à la place.",
+     "blocks": [
+      {
+       "title": "Séance",
+       "items": [
+        {
+         "ex": "Suspension à la barre",
+         "id": "hang",
+         "sets": "2 × 20 s",
+         "rest": "30 s",
+         "note": ""
+        },
+        {
+         "ex": "Tractions assistées (élastique 15 kg sous un pied)",
+         "id": "assist",
+         "sets": "3 × 6 — élastique 15 kg",
+         "rest": "2 min",
+         "note": "Menton au-dessus, descente 2 s."
+        },
+        {
+         "ex": "Pompes",
+         "id": "pushup",
+         "sets": "3 × 7",
+         "rest": "90 s",
+         "note": "Loin de l'échec."
+        }
+       ]
+      }
+     ],
+     "notes": []
+    },
+    {
+     "day": "Dimanche",
+     "date": "2026-10-18",
+     "title": "Sortie longue",
+     "type": "walk",
+     "duration": "0–75 min",
+     "goal": "Sortie longue : marche 6 km — sac 5 kg — chaussures de sport — 5,5–6 km/h. Samedi = repos complet.",
+     "blocks": [
+      {
+       "title": "Sortie longue",
+       "items": [
+        {
+         "ex": "Marche avec sac",
+         "id": "walk",
+         "sets": "6 km — sac 5 kg",
+         "rest": "—",
+         "note": "5,5–6 km/h sur plat. Eau 500 ml. Sangles vérifiées à mi-parcours."
+        },
+        {
+         "ex": "Après : étirements, inspection des pieds",
+         "id": "stretch",
+         "sets": "5 min",
+         "rest": "—",
+         "note": "Noter temps, épaules 0–10, pieds."
+        }
+       ]
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "sac": 5,
+   "km": "9.5",
+   "test": "",
+   "start": "2026-10-12",
+   "end": "2026-10-18",
+   "label": "12 oct. → 18 oct."
+  },
+  {
+   "num": 3,
+   "bloc": "1 Base 1",
+   "goal": "Semaine la plus chargée du bloc. Si fatigue anormale (sommeil, courbatures > 48 h), retirer 1 série par exercice.",
+   "detailed": true,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2026-10-19",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "50 min",
+     "goal": "Tractions (force excentrique), dos, bras, prise.",
+     "blocks": [
+      {
+       "title": "Échauffement (8 min)",
+       "items": [
+        {
+         "ex": "Pull-apart élastique 10 kg",
+         "id": "pull_apart",
+         "sets": "2 × 15",
+         "rest": "—",
+         "note": "Bras tendus, omoplates serrées 1 s."
+        },
+        {
+         "ex": "Dislocations d'épaules élastique 10 kg",
+         "id": "dislocation",
+         "sets": "2 × 10",
+         "rest": "—",
+         "note": "Prise large, lent."
+        },
+        {
+         "ex": "Scapula pull-ups",
+         "id": "scap_pullup",
+         "sets": "2 × 8",
+         "rest": "30 s",
+         "note": "Pas de flexion des coudes."
+        },
+        {
+         "ex": "Suspension à la barre",
+         "id": "hang",
+         "sets": "2 × 15 s",
+         "rest": "30 s",
+         "note": "Épaules actives."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 1 — Tractions (force)",
+       "items": [
+        {
+         "ex": "Tentatives strictes",
+         "id": "strict",
+         "sets": "2 × 1",
+         "rest": "2 min",
+         "note": "Nouveau en S3 : tester 1 traction stricte, puis 1 autre. Ne pas forcer."
+        },
+        {
+         "ex": "Tractions négatives",
+         "id": "neg",
+         "sets": "5 × 3 (descente 6 s)",
+         "rest": "2 min",
+         "note": "Si la descente passe sous 3 s, arrêter le bloc."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 2 — Tirage horizontal",
+       "items": [
+        {
+         "ex": "Rowing 1 bras (haltère ou sac par la poignée)",
+         "id": "row",
+         "sets": "4 × 10 / bras — 12 kg",
+         "rest": "90 s",
+         "note": "Coude vers la hanche, pas de rotation du buste."
+        },
+        {
+         "ex": "Tirage élastique 15 kg assis",
+         "id": "row_band",
+         "sets": "4 × 12",
+         "rest": "60 s",
+         "note": "Buste droit, 1 s omoplates serrées."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 3 — Épaules arrière & bras",
+       "items": [
+        {
+         "ex": "Face pull élastique 10 kg",
+         "id": "facepull",
+         "sets": "3 × 15",
+         "rest": "45 s",
+         "note": "Coudes hauts."
+        },
+        {
+         "ex": "Curl biceps élastique 15 kg ou haltères 2 × 5 kg",
+         "id": "curl",
+         "sets": "3 × 12",
+         "rest": "60 s",
+         "note": "Descente 3 s."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 4 — Prise & avant-bras",
+       "items": [
+        {
+         "ex": "Suspension à la barre",
+         "id": "hang",
+         "sets": "4 × (max − 5 s)",
+         "rest": "90 s",
+         "note": "Chrono, noter le temps."
+        },
+        {
+         "ex": "Farmer's walk (2 haltères ou 2 sacs)",
+         "id": "farmer",
+         "sets": "3 × 50 m — 2 × 10 kg",
+         "rest": "60 s",
+         "note": "Épaules basses, pas rapides."
+        }
+       ]
+      },
+      {
+       "title": "Retour au calme (3 min)",
+       "items": [
+        {
+         "ex": "Étirement pectoraux + dorsaux",
+         "id": "stretch",
+         "sets": "2 × 30 s chacun",
+         "rest": "—",
+         "note": ""
+        }
+       ]
+      }
+     ],
+     "notes": [
+      "Pas d'échec. Sans haltères : rowing = sac 10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2026-10-20",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "séance Hyrox",
+     "goal": "Rien d'autre.",
+     "blocks": [
+      {
+       "title": "Option matin (5 min)",
+       "items": [
+        {
+         "ex": "Pompes faciles",
+         "id": "ggt",
+         "sets": "2 × 6",
+         "rest": "2 min",
+         "note": "Sauter si fatigue."
+        }
+       ]
+      },
+      {
+       "title": "Autour de l'Hyrox",
+       "items": [
+        {
+         "ex": "Avant : ~50 g glucides 1–2 h avant · Après : whey 25–30 g + glucides",
+         "id": "hyrox",
+         "sets": "—",
+         "rest": "—",
+         "note": ""
+        }
+       ]
+      }
+     ],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2026-10-21",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "45 min",
+     "goal": "Pompes (volume), épaules, trapèzes, cou, gainage.",
+     "blocks": [
+      {
+       "title": "Échauffement (6 min)",
+       "items": [
+        {
+         "ex": "Cercles de bras, rotations de cou lentes",
+         "id": "stretch",
+         "sets": "1 min",
+         "rest": "—",
+         "note": ""
+        },
+        {
+         "ex": "Scap push-ups",
+         "id": "scap_pushup",
+         "sets": "2 × 10",
+         "rest": "30 s",
+         "note": ""
+        },
+        {
+         "ex": "Pompes sur les genoux",
+         "id": "pushup",
+         "sets": "1 × 8",
+         "rest": "—",
+         "note": "Amplitude complète."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 1 — Pompes",
+       "items": [
+        {
+         "ex": "Pompes strictes, menton au sol",
+         "id": "pushup",
+         "sets": "6 × 7",
+         "rest": "90 s",
+         "note": "~60 % du max par série. Si une série casse : finir sur les genoux, −1 rep à la suivante."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 2 — Épaules",
+       "items": [
+        {
+         "ex": "Pike push-ups (pieds sur chaise)",
+         "id": "pike",
+         "sets": "4 × 6",
+         "rest": "90 s",
+         "note": "Variante haltères : développé assis 2 × 5 kg, 3 × 8."
+        },
+        {
+         "ex": "Élévations latérales",
+         "id": "lateral",
+         "sets": "3 × 12 — 2–3 kg",
+         "rest": "60 s",
+         "note": "Jusqu'à l'horizontale, descente 2 s."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 3 — Trapèzes & cou",
+       "items": [
+        {
+         "ex": "Shrugs (haltères 2 × 10 kg ou sac 10 kg)",
+         "id": "shrug",
+         "sets": "4 × 15 (+ 5 s en haut) — 2 × 10 kg",
+         "rest": "60 s",
+         "note": "Tenir 5 s en haut."
+        },
+        {
+         "ex": "Cou isométrique 4 directions",
+         "id": "neck",
+         "sets": "2 × 25 s / direction",
+         "rest": "20 s",
+         "note": "Intensité 50 %."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 4 — Gainage",
+       "items": [
+        {
+         "ex": "Touchers d'épaules, gilet 6 kg",
+         "id": "touch",
+         "sets": "3 × 20 — gilet 6 kg",
+         "rest": "60 s",
+         "note": "Bassin immobile."
+        },
+        {
+         "ex": "Planche avant-bras",
+         "id": "plank",
+         "sets": "3 × 50 s",
+         "rest": "45 s",
+         "note": "Fessiers serrés."
+        }
+       ]
+      }
+     ],
+     "notes": [
+      "Jamais à l'échec : le test mesure, les séances construisent."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2026-10-22",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "séance Hyrox",
+     "goal": "Si Hyrox vendredi : faire la séance C aujourd'hui.",
+     "blocks": [
+      {
+       "title": "Option matin (5 min)",
+       "items": [
+        {
+         "ex": "Pompes faciles",
+         "id": "ggt",
+         "sets": "2 × 6",
+         "rest": "2 min",
+         "note": "Sauter si fatigue."
+        }
+       ]
+      }
+     ],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2026-10-23",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "50 min",
+     "goal": "Dos léger puis marche avec sac.",
+     "blocks": [
+      {
+       "title": "Partie 1 — Dos (20 min)",
+       "items": [
+        {
+         "ex": "Rowing 1 bras léger",
+         "id": "row",
+         "sets": "3 × 12 — 10 kg",
+         "rest": "60 s",
+         "note": "Technique, pas lourd."
+        },
+        {
+         "ex": "Y-T-W allongée, 1 kg maxi",
+         "id": "ytw",
+         "sets": "2 × 8 chaque lettre",
+         "rest": "45 s",
+         "note": "Tenir 1 s."
+        },
+        {
+         "ex": "Superman",
+         "id": "superman",
+         "sets": "2 × 12",
+         "rest": "45 s",
+         "note": "Tenir 2 s."
+        },
+        {
+         "ex": "Dead bug",
+         "id": "deadbug",
+         "sets": "2 × 10 / côté",
+         "rest": "45 s",
+         "note": "Bas du dos plaqué."
+        }
+       ]
+      },
+      {
+       "title": "Partie 2 — Marche avec sac",
+       "items": [
+        {
+         "ex": "Marche",
+         "id": "walk",
+         "sets": "40 min — sac 6 kg — chaussures de sport — un peu de dénivelé",
+         "rest": "—",
+         "note": "Sac haut et collé au dos. Noter frottements et épaules."
+        },
+        {
+         "ex": "Étirements mollets + ischios, inspection des pieds",
+         "id": "stretch",
+         "sets": "5 min",
+         "rest": "—",
+         "note": ""
+        }
+       ]
+      }
+     ],
+     "notes": [
+      "Chaussures de sport jusqu'en S5 ; rangers à partir de S6.",
+      "Si sortie longue dimanche et grosse fatigue : raccourcir à 20 min, ne pas supprimer."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2026-10-24",
+     "title": "Court",
+     "type": "short",
+     "duration": "15 min",
+     "goal": "Fréquence tractions/pompes. Si sortie longue dimanche : repos complet à la place.",
+     "blocks": [
+      {
+       "title": "Séance",
+       "items": [
+        {
+         "ex": "Suspension à la barre",
+         "id": "hang",
+         "sets": "2 × 20 s",
+         "rest": "30 s",
+         "note": ""
+        },
+        {
+         "ex": "Tractions assistées (élastique 15 kg sous un pied)",
+         "id": "assist",
+         "sets": "4 × 6 — élastique 15 kg",
+         "rest": "2 min",
+         "note": "Menton au-dessus, descente 2 s."
+        },
+        {
+         "ex": "Pompes",
+         "id": "pushup",
+         "sets": "3 × 8",
+         "rest": "90 s",
+         "note": "Loin de l'échec."
+        }
+       ]
+      }
+     ],
+     "notes": []
+    },
+    {
+     "day": "Dimanche",
+     "date": "2026-10-25",
+     "title": "Sortie longue",
+     "type": "walk",
+     "duration": "0–75 min",
+     "goal": "Sortie longue : marche 7 km — sac 6 kg — chaussures de sport. Samedi = repos complet.",
+     "blocks": [
+      {
+       "title": "Sortie longue",
+       "items": [
+        {
+         "ex": "Marche avec sac",
+         "id": "walk",
+         "sets": "7 km — sac 6 kg",
+         "rest": "—",
+         "note": "5,5–6 km/h sur plat. Eau 500 ml. Sangles vérifiées à mi-parcours."
+        },
+        {
+         "ex": "Après : étirements, inspection des pieds",
+         "id": "stretch",
+         "sets": "5 min",
+         "rest": "—",
+         "note": "Noter temps, épaules 0–10, pieds."
+        }
+       ]
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "sac": 6,
+   "km": "11",
+   "test": "",
+   "start": "2026-10-19",
+   "end": "2026-10-25",
+   "label": "19 oct. → 25 oct."
+  },
+  {
+   "num": 4,
+   "bloc": "1 Base 1",
+   "goal": "Décharge (−35 % de volume) puis TEST 1 samedi + dimanche.",
+   "detailed": true,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2026-10-26",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "35 min (décharge)",
+     "goal": "Tractions (force excentrique), dos, bras, prise.",
+     "blocks": [
+      {
+       "title": "Échauffement (8 min)",
+       "items": [
+        {
+         "ex": "Pull-apart élastique 10 kg",
+         "id": "pull_apart",
+         "sets": "2 × 15",
+         "rest": "—",
+         "note": "Bras tendus, omoplates serrées 1 s."
+        },
+        {
+         "ex": "Dislocations d'épaules élastique 10 kg",
+         "id": "dislocation",
+         "sets": "2 × 10",
+         "rest": "—",
+         "note": "Prise large, lent."
+        },
+        {
+         "ex": "Scapula pull-ups",
+         "id": "scap_pullup",
+         "sets": "2 × 8",
+         "rest": "30 s",
+         "note": "Pas de flexion des coudes."
+        },
+        {
+         "ex": "Suspension à la barre",
+         "id": "hang",
+         "sets": "2 × 15 s",
+         "rest": "30 s",
+         "note": "Épaules actives."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 1 — Tractions (force)",
+       "items": [
+        {
+         "ex": "Tractions négatives",
+         "id": "neg",
+         "sets": "3 × 3 (descente 5 s)",
+         "rest": "2 min",
+         "note": "Si la descente passe sous 3 s, arrêter le bloc."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 2 — Tirage horizontal",
+       "items": [
+        {
+         "ex": "Rowing 1 bras (haltère ou sac par la poignée)",
+         "id": "row",
+         "sets": "3 × 8 / bras — 10 kg",
+         "rest": "90 s",
+         "note": "Coude vers la hanche, pas de rotation du buste."
+        },
+        {
+         "ex": "Tirage élastique 15 kg assis",
+         "id": "row_band",
+         "sets": "2 × 12",
+         "rest": "60 s",
+         "note": "Buste droit, 1 s omoplates serrées."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 3 — Épaules arrière & bras",
+       "items": [
+        {
+         "ex": "Face pull élastique 10 kg",
+         "id": "facepull",
+         "sets": "2 × 15",
+         "rest": "45 s",
+         "note": "Coudes hauts."
+        },
+        {
+         "ex": "Curl biceps élastique 15 kg ou haltères 2 × 5 kg",
+         "id": "curl",
+         "sets": "2 × 12",
+         "rest": "60 s",
+         "note": "Descente 3 s."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 4 — Prise & avant-bras",
+       "items": [
+        {
+         "ex": "Suspension à la barre",
+         "id": "hang",
+         "sets": "2 × (max − 5 s)",
+         "rest": "90 s",
+         "note": "Chrono, noter le temps."
+        },
+        {
+         "ex": "Farmer's walk (2 haltères ou 2 sacs)",
+         "id": "farmer",
+         "sets": "2 × 40 m — 2 × 10 kg",
+         "rest": "60 s",
+         "note": "Épaules basses, pas rapides."
+        }
+       ]
+      },
+      {
+       "title": "Retour au calme (3 min)",
+       "items": [
+        {
+         "ex": "Étirement pectoraux + dorsaux",
+         "id": "stretch",
+         "sets": "2 × 30 s chacun",
+         "rest": "—",
+         "note": ""
+        }
+       ]
+      }
+     ],
+     "notes": [
+      "Pas d'échec. Sans haltères : rowing = sac 10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2026-10-27",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "séance Hyrox",
+     "goal": "Rien d'autre.",
+     "blocks": [
+      {
+       "title": "Option matin (5 min)",
+       "items": [
+        {
+         "ex": "Pompes faciles",
+         "id": "ggt",
+         "sets": "2 × 6",
+         "rest": "2 min",
+         "note": "Sauter si fatigue."
+        }
+       ]
+      },
+      {
+       "title": "Autour de l'Hyrox",
+       "items": [
+        {
+         "ex": "Avant : ~50 g glucides 1–2 h avant · Après : whey 25–30 g + glucides",
+         "id": "hyrox",
+         "sets": "—",
+         "rest": "—",
+         "note": ""
+        }
+       ]
+      }
+     ],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2026-10-28",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "30 min (décharge)",
+     "goal": "Pompes (volume), épaules, trapèzes, cou, gainage.",
+     "blocks": [
+      {
+       "title": "Échauffement (6 min)",
+       "items": [
+        {
+         "ex": "Cercles de bras, rotations de cou lentes",
+         "id": "stretch",
+         "sets": "1 min",
+         "rest": "—",
+         "note": ""
+        },
+        {
+         "ex": "Scap push-ups",
+         "id": "scap_pushup",
+         "sets": "2 × 10",
+         "rest": "30 s",
+         "note": ""
+        },
+        {
+         "ex": "Pompes sur les genoux",
+         "id": "pushup",
+         "sets": "1 × 8",
+         "rest": "—",
+         "note": "Amplitude complète."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 1 — Pompes",
+       "items": [
+        {
+         "ex": "Pompes strictes, menton au sol",
+         "id": "pushup",
+         "sets": "3 × 6",
+         "rest": "90 s",
+         "note": "~60 % du max par série. Si une série casse : finir sur les genoux, −1 rep à la suivante."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 2 — Épaules",
+       "items": [
+        {
+         "ex": "Pike push-ups (pieds sur chaise)",
+         "id": "pike",
+         "sets": "2 × 6",
+         "rest": "90 s",
+         "note": "Variante haltères : développé assis 2 × 5 kg, 3 × 8."
+        },
+        {
+         "ex": "Élévations latérales",
+         "id": "lateral",
+         "sets": "2 × 12 — 2–3 kg",
+         "rest": "60 s",
+         "note": "Jusqu'à l'horizontale, descente 2 s."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 3 — Trapèzes & cou",
+       "items": [
+        {
+         "ex": "Shrugs (haltères 2 × 10 kg ou sac 10 kg)",
+         "id": "shrug",
+         "sets": "2 × 12 — 2 × 10 kg",
+         "rest": "60 s",
+         "note": "Tenir 5 s en haut."
+        },
+        {
+         "ex": "Cou isométrique 4 directions",
+         "id": "neck",
+         "sets": "1 × 20 s / direction",
+         "rest": "20 s",
+         "note": "Intensité 50 %."
+        }
+       ]
+      },
+      {
+       "title": "Bloc 4 — Gainage",
+       "items": [
+        {
+         "ex": "Touchers d'épaules, gilet 6 kg",
+         "id": "touch",
+         "sets": "2 × 16 — gilet 6 kg",
+         "rest": "60 s",
+         "note": "Bassin immobile."
+        },
+        {
+         "ex": "Planche avant-bras",
+         "id": "plank",
+         "sets": "2 × 40 s",
+         "rest": "45 s",
+         "note": "Fessiers serrés."
+        }
+       ]
+      }
+     ],
+     "notes": [
+      "Jamais à l'échec : le test mesure, les séances construisent."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2026-10-29",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "séance Hyrox",
+     "goal": "Si Hyrox vendredi : faire la séance C aujourd'hui.",
+     "blocks": [
+      {
+       "title": "Option matin (5 min)",
+       "items": [
+        {
+         "ex": "Pompes faciles",
+         "id": "ggt",
+         "sets": "2 × 6",
+         "rest": "2 min",
+         "note": "Sauter si fatigue."
+        }
+       ]
+      }
+     ],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2026-10-30",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "40 min (décharge)",
+     "goal": "Dos léger puis marche avec sac.",
+     "blocks": [
+      {
+       "title": "Partie 1 — Dos (20 min)",
+       "items": [
+        {
+         "ex": "Rowing 1 bras léger",
+         "id": "row",
+         "sets": "2 × 12 — 8 kg",
+         "rest": "60 s",
+         "note": "Technique, pas lourd."
+        },
+        {
+         "ex": "Y-T-W allongée, 1 kg maxi",
+         "id": "ytw",
+         "sets": "2 × 8 chaque lettre",
+         "rest": "45 s",
+         "note": "Tenir 1 s."
+        },
+        {
+         "ex": "Superman",
+         "id": "superman",
+         "sets": "2 × 12",
+         "rest": "45 s",
+         "note": "Tenir 2 s."
+        },
+        {
+         "ex": "Dead bug",
+         "id": "deadbug",
+         "sets": "2 × 10 / côté",
+         "rest": "45 s",
+         "note": "Bas du dos plaqué."
+        }
+       ]
+      },
+      {
+       "title": "Partie 2 — Marche avec sac",
+       "items": [
+        {
+         "ex": "Marche",
+         "id": "walk",
+         "sets": "25 min — sac 5 kg — chaussures de sport",
+         "rest": "—",
+         "note": "Sac haut et collé au dos. Noter frottements et épaules."
+        },
+        {
+         "ex": "Étirements mollets + ischios, inspection des pieds",
+         "id": "stretch",
+         "sets": "5 min",
+         "rest": "—",
+         "note": ""
+        }
+       ]
+      }
+     ],
+     "notes": [
+      "Chaussures de sport jusqu'en S5 ; rangers à partir de S6.",
+      "Si sortie longue dimanche et grosse fatigue : raccourcir à 20 min, ne pas supprimer."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2026-10-31",
+     "title": "Test 1 — haut du corps",
+     "type": "test",
+     "duration": "45 min",
+     "goal": "Reposée, échauffée, même protocole à chaque test.",
+     "blocks": [
+      {
+       "title": "Échauffement (10 min)",
+       "items": [
+        {
+         "ex": "Pull-apart, scap pull-ups, scap push-ups, 1 × 5 pompes, suspension 2 × 15 s",
+         "id": "pull_apart",
+         "sets": "—",
+         "rest": "—",
+         "note": "Comme en semaine."
+        }
+       ]
+      },
+      {
+       "title": "Tests (dans cet ordre)",
+       "items": [
+        {
+         "ex": "Tractions strictes",
+         "id": "test_pull",
+         "sets": "1 × max",
+         "rest": "4 min",
+         "note": "Référence : 1."
+        },
+        {
+         "ex": "Pompes strictes menton au sol",
+         "id": "test_push",
+         "sets": "1 × max",
+         "rest": "4 min",
+         "note": "Référence : 11."
+        },
+        {
+         "ex": "Suspension bras tendus",
+         "id": "hang",
+         "sets": "1 × max (s)",
+         "rest": "3 min",
+         "note": "Chrono."
+        },
+        {
+         "ex": "Tenue « arme » 3,6 kg bras tendus",
+         "id": "arm_hold",
+         "sets": "1 × max (s)",
+         "rest": "3 min",
+         "note": ""
+        },
+        {
+         "ex": "Touchers d'épaules gilet 6 kg",
+         "id": "touch",
+         "sets": "nombre en 30 s",
+         "rest": "3 min",
+         "note": "Référence : 20 en 14 s."
+        },
+        {
+         "ex": "Planche avant-bras",
+         "id": "plank",
+         "sets": "1 × max (s)",
+         "rest": "—",
+         "note": ""
+        }
+       ]
+      },
+      {
+       "title": "À noter",
+       "items": [
+        {
+         "ex": "Poids : moyenne de 3 pesées matin",
+         "id": "weigh",
+         "sets": "—",
+         "rest": "—",
+         "note": "Référence : 52 kg."
+        },
+        {
+         "ex": "Tour de bras contracté + tour d'épaules",
+         "id": "weigh",
+         "sets": "—",
+         "rest": "—",
+         "note": "Facultatif, mêmes conditions à chaque test."
+        }
+       ]
+      }
+     ],
+     "notes": []
+    },
+    {
+     "day": "Dimanche",
+     "date": "2026-11-01",
+     "title": "Test 1 — marche",
+     "type": "test",
+     "duration": "~60 min",
+     "goal": "Première référence de portage.",
+     "blocks": [
+      {
+       "title": "Test marche",
+       "items": [
+        {
+         "ex": "Marche 5 km — sac 8 kg — chaussures de sport — parcours plat",
+         "id": "test_walk",
+         "sets": "chrono",
+         "rest": "—",
+         "note": "~6 km/h. Noter le temps."
+        },
+        {
+         "ex": "Juste après : épaules 0–10, nuque 0–10, pieds, FC",
+         "id": "test_walk",
+         "sets": "—",
+         "rest": "—",
+         "note": ""
+        },
+        {
+         "ex": "Lendemain matin : courbatures 0–10, sommeil",
+         "id": "test_walk",
+         "sets": "—",
+         "rest": "—",
+         "note": ""
+        }
+       ]
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "sac": 8,
+   "km": "7.5",
+   "test": "TEST 1 — cible : 1–2 tractions, 13 pompes",
+   "start": "2026-10-26",
+   "end": "2026-11-01",
+   "label": "26 oct. → 1 nov."
+  },
+  {
+   "num": 5,
+   "bloc": "2 Base 2 (hypertrophie)",
+   "goal": "3×8–12, volume ↑, rangers",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2026-11-02",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "Négatives 4×4 (6 s) + assistées élastique 10 kg 3×6 · rowing 4×10 (12 kg)",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2026-11-03",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2026-11-04",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "Pompes 5×8 · développé 4×8 · shrugs 4×15",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2026-11-05",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2026-11-06",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "Dos 20' + marche 45' sac 8 (sport)",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2026-11-07",
+     "title": "Samedi",
+     "type": "short",
+     "duration": "",
+     "goal": "Court",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2026-11-08",
+     "title": "Dimanche",
+     "type": "rest",
+     "duration": "",
+     "goal": "Repos",
+     "blocks": [],
+     "notes": []
+    }
+   ],
+   "sac": 8,
+   "km": "4.5",
+   "test": "",
+   "targets": {
+    "tractions": "Assistées 10 kg",
+    "pompes": "5×8"
+   },
+   "start": "2026-11-02",
+   "end": "2026-11-08",
+   "label": "2 nov. → 8 nov."
+  },
+  {
+   "num": 6,
+   "bloc": "2 Base 2",
+   "goal": "Rangers sur les marches",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2026-11-09",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "Idem +1 rep · strictes 3×1 si acquis",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2026-11-10",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2026-11-11",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "Pompes 6×8 · développé 4×8",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2026-11-12",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2026-11-13",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "Dos + marche 45' sac 8 — RANGERS",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2026-11-14",
+     "title": "Samedi",
+     "type": "rest",
+     "duration": "",
+     "goal": "Repos",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Dimanche",
+     "date": "2026-11-15",
+     "title": "Dimanche",
+     "type": "walk",
+     "duration": "",
+     "goal": "8 km sac 8 (rangers)",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    }
+   ],
+   "sac": 8,
+   "km": "12.5",
+   "test": "",
+   "targets": {
+    "tractions": "3×1 strictes",
+    "pompes": "6×8"
+   },
+   "start": "2026-11-09",
+   "end": "2026-11-15",
+   "label": "9 nov. → 15 nov."
+  },
+  {
+   "num": 7,
+   "bloc": "2 Base 2",
+   "goal": "Intro pompes lestées",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2026-11-16",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "Négatives gilet 6 kg 3×3 + strictes 3×2 · rowing 4×10 (14 kg)",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2026-11-17",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2026-11-18",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "Pompes 4×10 + LESTÉES gilet 6 kg 3×5",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2026-11-19",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2026-11-20",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "Dos + marche 50' sac 9",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2026-11-21",
+     "title": "Samedi",
+     "type": "short",
+     "duration": "",
+     "goal": "Court",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2026-11-22",
+     "title": "Dimanche",
+     "type": "rest",
+     "duration": "",
+     "goal": "Repos",
+     "blocks": [],
+     "notes": []
+    }
+   ],
+   "sac": 9,
+   "km": "5",
+   "test": "",
+   "targets": {
+    "tractions": "3×2 strictes",
+    "pompes": "4×10 + 3×5 (6 kg)"
+   },
+   "start": "2026-11-16",
+   "end": "2026-11-22",
+   "label": "16 nov. → 22 nov."
+  },
+  {
+   "num": 8,
+   "bloc": "2 Base 2",
+   "goal": "Décharge −35 %",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2026-11-23",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "3×2 · 3×8",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2026-11-24",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2026-11-25",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "3×8",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2026-11-26",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2026-11-27",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "30' sac 8",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2026-11-28",
+     "title": "Samedi",
+     "type": "test",
+     "duration": "",
+     "goal": "TEST 2 haut",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2026-11-29",
+     "title": "Dimanche",
+     "type": "test",
+     "duration": "",
+     "goal": "TEST 2 : 8 km sac 10",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    }
+   ],
+   "sac": 10,
+   "km": "10.5",
+   "test": "TEST 2 — cible : 2–3 tractions, 15 pompes, suspension 45 s",
+   "targets": {
+    "tractions": "TEST",
+    "pompes": "TEST"
+   },
+   "start": "2026-11-23",
+   "end": "2026-11-29",
+   "label": "23 nov. → 29 nov."
+  },
+  {
+   "num": 9,
+   "bloc": "3 Force 1",
+   "goal": "Charges lourdes, 3–6 reps",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2026-11-30",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "Strictes en clusters 5×2 (repos 2'30) + négatives 6 kg 2×3 · rowing 5×6 (14–16 kg)",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2026-12-01",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2026-12-02",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "Pompes lestées 6 kg 4×6 · développé 5×5 · shrugs lourds 4×10",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2026-12-03",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2026-12-04",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "Dos + marche 50' sac 10",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2026-12-05",
+     "title": "Samedi",
+     "type": "short",
+     "duration": "",
+     "goal": "Court",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2026-12-06",
+     "title": "Dimanche",
+     "type": "rest",
+     "duration": "",
+     "goal": "Repos",
+     "blocks": [],
+     "notes": []
+    }
+   ],
+   "sac": 10,
+   "km": "5",
+   "test": "",
+   "targets": {
+    "tractions": "5×2 strictes",
+    "pompes": "4×6 (6 kg)"
+   },
+   "start": "2026-11-30",
+   "end": "2026-12-06",
+   "label": "30 nov. → 6 déc."
+  },
+  {
+   "num": 10,
+   "bloc": "3 Force 1",
+   "goal": "",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2026-12-07",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "Strictes 6×2 · rowing 5×6",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2026-12-08",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2026-12-09",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "Lestées 6 kg 4×7 · développé 5×5",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2026-12-10",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2026-12-11",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "Dos + marche 50' sac 10",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2026-12-12",
+     "title": "Samedi",
+     "type": "rest",
+     "duration": "",
+     "goal": "Repos",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Dimanche",
+     "date": "2026-12-13",
+     "title": "Dimanche",
+     "type": "walk",
+     "duration": "",
+     "goal": "10 km sac 10",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    }
+   ],
+   "sac": 10,
+   "km": "15",
+   "test": "",
+   "targets": {
+    "tractions": "6×2",
+    "pompes": "4×7 (6 kg)"
+   },
+   "start": "2026-12-07",
+   "end": "2026-12-13",
+   "label": "7 déc. → 13 déc."
+  },
+  {
+   "num": 11,
+   "bloc": "3 Force 1",
+   "goal": "Semaine haute",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2026-12-14",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "Strictes 4×3 · négatives 6 kg 2×3 · rowing 5×6",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2026-12-15",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2026-12-16",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "Lestées 6 kg 5×6 + pompes 2×(max−3)",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2026-12-17",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2026-12-18",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "Dos + marche 60' sac 11",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2026-12-19",
+     "title": "Samedi",
+     "type": "short",
+     "duration": "",
+     "goal": "Court",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2026-12-20",
+     "title": "Dimanche",
+     "type": "rest",
+     "duration": "",
+     "goal": "Repos",
+     "blocks": [],
+     "notes": []
+    }
+   ],
+   "sac": 11,
+   "km": "6",
+   "test": "",
+   "targets": {
+    "tractions": "4×3",
+    "pompes": "5×6 (6 kg)"
+   },
+   "start": "2026-12-14",
+   "end": "2026-12-20",
+   "label": "14 déc. → 20 déc."
+  },
+  {
+   "num": 12,
+   "bloc": "3 Force 1",
+   "goal": "NOËL — décharge −40 %",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2026-12-21",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "3×2 · 3×6",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2026-12-22",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2026-12-23",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "3×5 lestées",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2026-12-24",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2026-12-25",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "30' sac 8",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2026-12-26",
+     "title": "Samedi",
+     "type": "test",
+     "duration": "",
+     "goal": "TEST 3 haut (26/12 ou jour libre)",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2026-12-27",
+     "title": "Dimanche",
+     "type": "test",
+     "duration": "",
+     "goal": "TEST 3 : 10 km sac 11",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    }
+   ],
+   "sac": 11,
+   "km": "13",
+   "test": "TEST 3 — cible : 3 tractions, 18 pompes, tenue arme 45 s",
+   "targets": {
+    "tractions": "TEST",
+    "pompes": "TEST"
+   },
+   "start": "2026-12-21",
+   "end": "2026-12-27",
+   "label": "21 déc. → 27 déc."
+  },
+  {
+   "num": 13,
+   "bloc": "4 Force 2",
+   "goal": "Lourd + début arme simulée",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2026-12-28",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "Strictes 5×3 · gilet 6 kg 3×2 si ≥4 strictes · rowing 5×6 (16 kg)",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2026-12-29",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2026-12-30",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "Lestées 10 kg 4×5 · développé 5×5",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2026-12-31",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2027-01-01",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "Dos + marche 60' sac 12",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2027-01-02",
+     "title": "Samedi",
+     "type": "short",
+     "duration": "",
+     "goal": "Court",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2027-01-03",
+     "title": "Dimanche",
+     "type": "rest",
+     "duration": "",
+     "goal": "Repos",
+     "blocks": [],
+     "notes": []
+    }
+   ],
+   "sac": 12,
+   "km": "6",
+   "test": "",
+   "targets": {
+    "tractions": "5×3",
+    "pompes": "4×5 (10 kg)"
+   },
+   "start": "2026-12-28",
+   "end": "2027-01-03",
+   "label": "28 déc. → 3 janv."
+  },
+  {
+   "num": 14,
+   "bloc": "4 Force 2",
+   "goal": "",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2027-01-04",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "Strictes 6×3 · rowing 5×6",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2027-01-05",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2027-01-06",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "Lestées 10 kg 4×6",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2027-01-07",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2027-01-08",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "Dos + marche 60' sac 12",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2027-01-09",
+     "title": "Samedi",
+     "type": "rest",
+     "duration": "",
+     "goal": "Repos",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Dimanche",
+     "date": "2027-01-10",
+     "title": "Dimanche",
+     "type": "walk",
+     "duration": "",
+     "goal": "12 km sac 12",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    }
+   ],
+   "sac": 12,
+   "km": "18",
+   "test": "",
+   "targets": {
+    "tractions": "6×3",
+    "pompes": "4×6 (10 kg)"
+   },
+   "start": "2027-01-04",
+   "end": "2027-01-10",
+   "label": "4 janv. → 10 janv."
+  },
+  {
+   "num": 15,
+   "bloc": "4 Force 2",
+   "goal": "Semaine haute · arme en main",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2027-01-11",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "Strictes 5×4 · négatives 10 kg 2×3",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2027-01-12",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2027-01-13",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "Lestées 10 kg 5×6 + pompes 2×(max−3) · tenue arme 3×max",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2027-01-14",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2027-01-15",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "Dos + marche 60' sac 12 + ARME 3,6 kg en main 20'",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2027-01-16",
+     "title": "Samedi",
+     "type": "short",
+     "duration": "",
+     "goal": "Court",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2027-01-17",
+     "title": "Dimanche",
+     "type": "rest",
+     "duration": "",
+     "goal": "Repos",
+     "blocks": [],
+     "notes": []
+    }
+   ],
+   "sac": 12,
+   "km": "6",
+   "test": "",
+   "targets": {
+    "tractions": "5×4",
+    "pompes": "5×6 (10 kg)"
+   },
+   "start": "2027-01-11",
+   "end": "2027-01-17",
+   "label": "11 janv. → 17 janv."
+  },
+  {
+   "num": 16,
+   "bloc": "4 Force 2",
+   "goal": "Décharge −40 %",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2027-01-18",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "3×3",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2027-01-19",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2027-01-20",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "3×5 lestées",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2027-01-21",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2027-01-22",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "30' sac 8",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2027-01-23",
+     "title": "Samedi",
+     "type": "test",
+     "duration": "",
+     "goal": "TEST 4 haut",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2027-01-24",
+     "title": "Dimanche",
+     "type": "test",
+     "duration": "",
+     "goal": "TEST 4 : 12 km sac 12 + arme",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    }
+   ],
+   "sac": 12,
+   "km": "15",
+   "test": "TEST 4 — cible : 4 tractions, 20 pompes, 3×8 lestées 6 kg",
+   "targets": {
+    "tractions": "TEST",
+    "pompes": "TEST"
+   },
+   "start": "2027-01-18",
+   "end": "2027-01-24",
+   "label": "18 janv. → 24 janv."
+  },
+  {
+   "num": 17,
+   "bloc": "5 Portage spécifique 1",
+   "goal": "Volume de marche ↑, force maintenue",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2027-01-25",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "Strictes 4×4 · rowing 4×8 · shrugs lourds · farmer's 2×15 kg",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2027-01-26",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2027-01-27",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "Lestées 10 kg 4×6 · tenue arme 3×max · cou",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2027-01-28",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2027-01-29",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "Marche 60' sac 13 + arme 30'",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2027-01-30",
+     "title": "Samedi",
+     "type": "short",
+     "duration": "",
+     "goal": "Court",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2027-01-31",
+     "title": "Dimanche",
+     "type": "walk",
+     "duration": "",
+     "goal": "15 km sac 13 + arme (rangers)",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    }
+   ],
+   "sac": 13,
+   "km": "21",
+   "test": "",
+   "targets": {
+    "tractions": "4×4",
+    "pompes": "4×6 (10 kg)"
+   },
+   "start": "2027-01-25",
+   "end": "2027-01-31",
+   "label": "25 janv. → 31 janv."
+  },
+  {
+   "num": 18,
+   "bloc": "5 Portage 1 — ENCAISSER 1",
+   "goal": "Marche le lendemain d'un Hyrox",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2027-02-01",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "Idem S17",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2027-02-02",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2027-02-03",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "Idem S17",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2027-02-04",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2027-02-05",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "HYROX JEUDI → VENDREDI marche 8 km sac 12",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2027-02-06",
+     "title": "Samedi",
+     "type": "short",
+     "duration": "",
+     "goal": "Court",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2027-02-07",
+     "title": "Dimanche",
+     "type": "rest",
+     "duration": "",
+     "goal": "Repos",
+     "blocks": [],
+     "notes": []
+    }
+   ],
+   "sac": 12,
+   "km": "14",
+   "test": "Encaisser 1 : lendemain Hyrox",
+   "targets": {
+    "tractions": "4×4",
+    "pompes": "4×6 (10 kg)"
+   },
+   "start": "2027-02-01",
+   "end": "2027-02-07",
+   "label": "1 févr. → 7 févr."
+  },
+  {
+   "num": 19,
+   "bloc": "5 Portage 1 — ENCAISSER 2",
+   "goal": "2 jours consécutifs chargés",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2027-02-08",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "Idem S17",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2027-02-09",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2027-02-10",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "Idem S17",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2027-02-11",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2027-02-12",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "Marche 45' sac 13",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2027-02-13",
+     "title": "Samedi",
+     "type": "walk",
+     "duration": "",
+     "goal": "10 km sac 13 + arme",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2027-02-14",
+     "title": "Dimanche",
+     "type": "walk",
+     "duration": "",
+     "goal": "8 km sac 13 (2e jour)",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    }
+   ],
+   "sac": 13,
+   "km": "22.5",
+   "test": "Encaisser 2 : sam + dim",
+   "targets": {
+    "tractions": "4×4",
+    "pompes": "4×6 (10 kg)"
+   },
+   "start": "2027-02-08",
+   "end": "2027-02-14",
+   "label": "8 févr. → 14 févr."
+  },
+  {
+   "num": 20,
+   "bloc": "5 Portage 1",
+   "goal": "Décharge −40 %",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2027-02-15",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "3×3",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2027-02-16",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2027-02-17",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "3×5 lestées",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2027-02-18",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2027-02-19",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "30' sac 8",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2027-02-20",
+     "title": "Samedi",
+     "type": "test",
+     "duration": "",
+     "goal": "TEST 5 haut",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2027-02-21",
+     "title": "Dimanche",
+     "type": "test",
+     "duration": "",
+     "goal": "TEST 5 : 15 km sac 13 + arme",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    }
+   ],
+   "sac": 13,
+   "km": "18",
+   "test": "TEST 5 — cible : 5 tractions, 22 pompes, suspension 60 s",
+   "targets": {
+    "tractions": "TEST",
+    "pompes": "TEST"
+   },
+   "start": "2027-02-15",
+   "end": "2027-02-21",
+   "label": "15 févr. → 21 févr."
+  },
+  {
+   "num": 21,
+   "bloc": "6 Portage 2 — ENCAISSER 3",
+   "goal": "Séance après nuit courte",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2027-02-22",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "Strictes 5×4 · rowing 5×6 (18 kg)",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2027-02-23",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2027-02-24",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "Lestées 10 kg 5×6 · tenue arme",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2027-02-25",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2027-02-26",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "Marche 60' sac 14",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2027-02-27",
+     "title": "Samedi",
+     "type": "walk",
+     "duration": "",
+     "goal": "NUIT 4–5 h volontaire → matin : 8 km sac 14 + 20' haut du corps",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2027-02-28",
+     "title": "Dimanche",
+     "type": "rest",
+     "duration": "",
+     "goal": "Repos",
+     "blocks": [],
+     "notes": []
+    }
+   ],
+   "sac": 14,
+   "km": "14",
+   "test": "Encaisser 3 : nuit courte",
+   "targets": {
+    "tractions": "5×4",
+    "pompes": "5×6 (10 kg)"
+   },
+   "start": "2027-02-22",
+   "end": "2027-02-28",
+   "label": "22 févr. → 28 févr."
+  },
+  {
+   "num": 22,
+   "bloc": "6 Portage 2 — ENCAISSER 4",
+   "goal": "Lendemain Hyrox + 2e jour",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2027-03-01",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "Idem S21",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2027-03-02",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2027-03-03",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "Idem S21",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2027-03-04",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2027-03-05",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "HYROX JEUDI → VENDREDI 8 km sac 14",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2027-03-06",
+     "title": "Samedi",
+     "type": "walk",
+     "duration": "",
+     "goal": "15 km sac 14 + arme",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2027-03-07",
+     "title": "Dimanche",
+     "type": "rest",
+     "duration": "",
+     "goal": "Repos",
+     "blocks": [],
+     "notes": []
+    }
+   ],
+   "sac": 14,
+   "km": "23",
+   "test": "Encaisser 4 : ven + sam",
+   "targets": {
+    "tractions": "5×4",
+    "pompes": "5×6 (10 kg)"
+   },
+   "start": "2027-03-01",
+   "end": "2027-03-07",
+   "label": "1 mars → 7 mars"
+  },
+  {
+   "num": 23,
+   "bloc": "6 Portage 2 — ENCAISSER 5",
+   "goal": "3 jours consécutifs (semaine la plus dure)",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2027-03-08",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "Allégé : 3×4 · rowing 3×8",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2027-03-09",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2027-03-10",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "Allégé : 3×6 lestées",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2027-03-11",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2027-03-12",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "HYROX JEUDI → VENDREDI 6 km sac 14",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2027-03-13",
+     "title": "Samedi",
+     "type": "walk",
+     "duration": "",
+     "goal": "14 km sac 14 + arme",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2027-03-14",
+     "title": "Dimanche",
+     "type": "walk",
+     "duration": "",
+     "goal": "8 km sac 10 (récup active)",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    }
+   ],
+   "sac": 14,
+   "km": "28",
+   "test": "Encaisser 5 : ven + sam + dim",
+   "targets": {
+    "tractions": "3×4",
+    "pompes": "3×6 (10 kg)"
+   },
+   "start": "2027-03-08",
+   "end": "2027-03-14",
+   "label": "8 mars → 14 mars"
+  },
+  {
+   "num": 24,
+   "bloc": "6 Portage 2",
+   "goal": "Décharge −40 %",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2027-03-15",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "3×3",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2027-03-16",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2027-03-17",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "3×5 lestées",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2027-03-18",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2027-03-19",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "30' sac 8",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2027-03-20",
+     "title": "Samedi",
+     "type": "test",
+     "duration": "",
+     "goal": "TEST 6 haut",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2027-03-21",
+     "title": "Dimanche",
+     "type": "test",
+     "duration": "",
+     "goal": "TEST 6 : 15 km sac 14 + arme",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    }
+   ],
+   "sac": 14,
+   "km": "18",
+   "test": "TEST 6 — cible : 5–6 tractions, 24 pompes, 3×8 lestées 10 kg",
+   "targets": {
+    "tractions": "TEST",
+    "pompes": "TEST"
+   },
+   "start": "2027-03-15",
+   "end": "2027-03-21",
+   "label": "15 mars → 21 mars"
+  },
+  {
+   "num": 25,
+   "bloc": "7 Pic",
+   "goal": "Plus gros week-end du plan",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2027-03-22",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "Strictes 4×4 · rowing 4×6",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2027-03-23",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2027-03-24",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "Lestées 10 kg 4×6 · tenue arme",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2027-03-25",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2027-03-26",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "Marche 45' sac 14",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2027-03-27",
+     "title": "Samedi",
+     "type": "walk",
+     "duration": "",
+     "goal": "18 km sac 14 + arme",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2027-03-28",
+     "title": "Dimanche",
+     "type": "walk",
+     "duration": "",
+     "goal": "8 km sac 12",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    }
+   ],
+   "sac": 14,
+   "km": "30.5",
+   "test": "Pic de volume",
+   "targets": {
+    "tractions": "4×4",
+    "pompes": "4×6 (10 kg)"
+   },
+   "start": "2027-03-22",
+   "end": "2027-03-28",
+   "label": "22 mars → 28 mars"
+  },
+  {
+   "num": 26,
+   "bloc": "7 Affûtage 1 (−30 %)",
+   "goal": "Volume ↓, intensité gardée",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2027-03-29",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "Strictes 3×4 · rowing 3×6",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2027-03-30",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2027-03-31",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "Lestées 10 kg 3×6",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2027-04-01",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2027-04-02",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "Marche 40' sac 12",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2027-04-03",
+     "title": "Samedi",
+     "type": "short",
+     "duration": "",
+     "goal": "Court",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Dimanche",
+     "date": "2027-04-04",
+     "title": "Dimanche",
+     "type": "walk",
+     "duration": "",
+     "goal": "10 km sac 12 + arme",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    }
+   ],
+   "sac": 12,
+   "km": "14",
+   "test": "",
+   "targets": {
+    "tractions": "3×4",
+    "pompes": "3×6 (10 kg)"
+   },
+   "start": "2027-03-29",
+   "end": "2027-04-04",
+   "label": "29 mars → 4 avr."
+  },
+  {
+   "num": 27,
+   "bloc": "7 Affûtage 2 (−50 %)",
+   "goal": "HYROX 1× seulement · sommeil 8–9 h",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2027-04-05",
+     "title": "Séance A — Tirage & prise",
+     "type": "strength",
+     "duration": "",
+     "goal": "Strictes 3×3 · rowing 2×6",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2027-04-06",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Rien d'autre.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2027-04-07",
+     "title": "Séance B — Poussée, épaules, cou",
+     "type": "strength",
+     "duration": "",
+     "goal": "Lestées 6 kg 3×6",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2027-04-08",
+     "title": "Hyrox (ou vendredi)",
+     "type": "hyrox",
+     "duration": "",
+     "goal": "Si Hyrox vendredi : séance C aujourd'hui.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2027-04-09",
+     "title": "Séance C — Dos & portage",
+     "type": "walk",
+     "duration": "",
+     "goal": "Marche 30' sac 10",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Samedi",
+     "date": "2027-04-10",
+     "title": "Samedi",
+     "type": "rest",
+     "duration": "",
+     "goal": "Repos",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Dimanche",
+     "date": "2027-04-11",
+     "title": "Dimanche",
+     "type": "walk",
+     "duration": "",
+     "goal": "6 km sac 10 (dernière marche)",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    }
+   ],
+   "sac": 10,
+   "km": "9",
+   "test": "Début « banque de sommeil »",
+   "targets": {
+    "tractions": "3×3",
+    "pompes": "3×6 (6 kg)"
+   },
+   "start": "2027-04-05",
+   "end": "2027-04-11",
+   "label": "5 avr. → 11 avr."
+  },
+  {
+   "num": 28,
+   "bloc": "7 Arrivée",
+   "goal": "Fraîcheur. Départ samedi 17 avril",
+   "detailed": false,
+   "days": [
+    {
+     "day": "Lundi",
+     "date": "2027-04-12",
+     "title": "Haut du corps léger",
+     "type": "strength",
+     "duration": "",
+     "goal": "Lun : 30' haut léger (3×3 tractions, 3×8 pompes, suspension)",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Mardi",
+     "date": "2027-04-13",
+     "title": "Repos",
+     "type": "rest",
+     "duration": "",
+     "goal": "Repos.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Mercredi",
+     "date": "2027-04-14",
+     "title": "Marche courte",
+     "type": "walk",
+     "duration": "",
+     "goal": "Mer : marche 30' sac 8 en rangers",
+     "blocks": [],
+     "notes": [
+      "Détail de la séance : généré au moment de la mise à jour du plan (structure indicative)."
+     ]
+    },
+    {
+     "day": "Jeudi",
+     "date": "2027-04-15",
+     "title": "Repos",
+     "type": "rest",
+     "duration": "",
+     "goal": "Jeu/ven : repos, préparer le sac, dormir",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Vendredi",
+     "date": "2027-04-16",
+     "title": "Repos",
+     "type": "rest",
+     "duration": "",
+     "goal": "Préparer le sac, dormir.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Samedi",
+     "date": "2027-04-17",
+     "title": "DÉPART",
+     "type": "event",
+     "duration": "",
+     "goal": "Départ en FGE-R.",
+     "blocks": [],
+     "notes": []
+    },
+    {
+     "day": "Dimanche",
+     "date": "2027-04-18",
+     "title": "FGE-R",
+     "type": "event",
+     "duration": "",
+     "goal": "Stage.",
+     "blocks": [],
+     "notes": []
+    }
+   ],
+   "sac": 8,
+   "km": "3",
+   "test": "Hyrox : 0 ou 1 très léger lundi/mardi",
+   "targets": {
+    "tractions": "3×3",
+    "pompes": "3×8"
+   },
+   "start": "2027-04-12",
+   "end": "2027-04-18",
+   "label": "12 avr. → 18 avr."
+  }
+ ],
+ "glossary": {
+  "pull_apart": {
+   "name": "Pull-apart élastique",
+   "how": "Élastique tenu devant soi, bras tendus, largeur épaules. Écarter les mains jusqu'à ce que l'élastique touche la poitrine, en serrant les omoplates ; revenir lentement.",
+   "cues": [
+    "Bras tendus tout du long",
+    "Épaules basses, pas de haussement",
+    "1 s de contraction en fin de mouvement"
+   ],
+   "why": "Erreur fréquente : plier les coudes et tirer avec les biceps. Rôle : échauffement des épaules, renfort des muscles qui stabilisent l'omoplate sous les sangles."
+  },
+  "dislocation": {
+   "name": "Dislocations d'épaules",
+   "how": "Élastique tenu en prise large, bras tendus. Passer l'élastique de devant les cuisses jusque derrière le dos par-dessus la tête, puis revenir. Si ça coince, prendre plus large.",
+   "cues": [
+    "Lent, sans à-coups",
+    "Coudes verrouillés",
+    "Élargir la prise plutôt que forcer"
+   ],
+   "why": "Rôle : mobilité de l'épaule, utile avant tractions et développé."
+  },
+  "scap_pullup": {
+   "name": "Scapula pull-ups",
+   "how": "Suspendue à la barre, bras tendus. Sans plier les coudes, abaisser les épaules (le corps monte de quelques cm, le cou s'allonge), tenir 1 s, relâcher.",
+   "cues": [
+    "Coudes tendus en permanence",
+    "Mouvement de 5–8 cm, pas plus",
+    "Imaginer serrer une balle sous les aisselles"
+   ],
+   "why": "C'est le premier mouvement d'une traction. Erreur : plier les coudes."
+  },
+  "hang": {
+   "name": "Suspension à la barre",
+   "how": "Suspendue, prise pronation largeur épaules, épaules actives (légèrement abaissées), corps gainé, respiration calme.",
+   "cues": [
+    "Prise entière, pouce autour de la barre",
+    "Ne pas se laisser complètement « pendre » dans les épaules",
+    "Chrono"
+   ],
+   "why": "Rôle : prise, avant-bras, tolérance des épaules. Cible : 60 s en S16."
+  },
+  "neg": {
+   "name": "Tractions négatives",
+   "how": "Monter menton au-dessus de la barre avec une chaise ou un petit saut. Descendre le plus lentement possible (5–6 s) jusqu'aux bras tendus. Redescendre de la chaise, repos, recommencer.",
+   "cues": [
+    "Descente régulière, pas de blocage puis chute",
+    "Coudes vers le sol, pas vers l'extérieur",
+    "Terminer bras complètement tendus"
+   ],
+   "why": "Pourquoi : la phase excentrique se travaille avec plus de charge que la concentrique ; c'est la voie standard de 0 vers 1–3 tractions. Arrêter la série dès que la descente passe sous 3 s."
+  },
+  "assist": {
+   "name": "Tractions assistées élastique",
+   "how": "Élastique accroché à la barre, un pied (ou un genou) dedans. Tirer jusqu'au menton au-dessus de la barre, descendre contrôlé 2 s.",
+   "cues": [
+    "Même trajectoire qu'une traction stricte",
+    "Pas d'élan des jambes",
+    "Élastique 15 kg = plus facile que 10 kg"
+   ],
+   "why": "Rôle : volume sur toute l'amplitude. On passe de 15 kg à 10 kg, puis à des strictes."
+  },
+  "strict": {
+   "name": "Tractions strictes",
+   "how": "Suspension bras tendus, prise pronation, monter jusqu'au menton au-dessus de la barre sans élan, descendre contrôlé.",
+   "cues": [
+    "Commencer par abaisser les épaules (scapula pull-up)",
+    "Poitrine vers la barre",
+    "Bras tendus en bas de chaque rep"
+   ],
+   "why": "Clusters : séries de 2 avec 2 min 30 de repos pour accumuler des reps de qualité sans échec."
+  },
+  "row": {
+   "name": "Rowing 1 bras",
+   "how": "Main libre et genou (ou main) appuyés sur une chaise, dos plat parallèle au sol. Tirer l'haltère (ou le sac par la poignée) vers la hanche, coude le long du corps, tenir 1 s, redescendre bras tendu.",
+   "cues": [
+    "Dos plat, regard au sol",
+    "Pas de rotation du buste",
+    "Tirer vers la hanche, pas vers l'épaule"
+   ],
+   "why": "Principal exercice de dos du plan : grand dorsal, rhomboïdes, trapèzes moyens. C'est ce qui tient le sac."
+  },
+  "row_band": {
+   "name": "Tirage élastique assis",
+   "how": "Assise au sol jambes tendues, élastique passé autour des pieds (ou fixé devant). Tirer les mains vers le ventre, coudes serrés, serrer les omoplates, revenir lentement.",
+   "cues": [
+    "Buste droit, ne pas se pencher en arrière",
+    "Contraction 1 s omoplates serrées",
+    "Retour contrôlé"
+   ],
+   "why": "Variante légère du rowing, pour le volume."
+  },
+  "facepull": {
+   "name": "Face pull élastique",
+   "how": "Élastique fixé à hauteur de visage (ou de poitrine). Tirer vers le visage en écartant les mains, coudes hauts, finir mains près des oreilles.",
+   "cues": [
+    "Coudes au-dessus des poignets",
+    "Omoplates serrées en fin de mouvement",
+    "Léger : c'est un exercice de précision"
+   ],
+   "why": "Rôle : arrière d'épaule et coiffe des rotateurs ; prévention des douleurs d'épaule sous les sangles."
+  },
+  "curl": {
+   "name": "Curl biceps",
+   "how": "Élastique sous les pieds ou haltères. Fléchir les coudes, coudes collés au corps, descente lente (3 s).",
+   "cues": [
+    "Pas d'élan du dos",
+    "Amplitude complète",
+    "Descente plus lente que la montée"
+   ],
+   "why": "Biceps = aide directe aux tractions."
+  },
+  "farmer": {
+   "name": "Farmer's walk",
+   "how": "Marcher avec une charge lourde dans chaque main, bras le long du corps, épaules basses, buste droit, pas courts et rapides.",
+   "cues": [
+    "Épaules basses et en arrière",
+    "Regarder loin devant",
+    "Ne pas laisser les épaules s'affaisser en fin de série"
+   ],
+   "why": "Rôle : prise, trapèzes, gainage. Transfert direct au port d'objets lourds et de l'arme."
+  },
+  "pushup": {
+   "name": "Pompes strictes",
+   "how": "Planche haute, mains sous les épaules ou légèrement plus larges, corps en ligne. Descendre jusqu'au menton (ou poitrine) au sol, coudes à ~45° du corps, remonter bras tendus.",
+   "cues": [
+    "Fessiers et abdos serrés : pas de cambrure",
+    "Coudes ni collés ni à 90°",
+    "Amplitude complète à chaque rep"
+   ],
+   "why": "Les séances sont à ~60 % du max par série, jamais à l'échec : le volume construit, le test mesure."
+  },
+  "pushup_w": {
+   "name": "Pompes lestées",
+   "how": "Pompes strictes avec le gilet lesté. Même technique, charge sur le haut du dos.",
+   "cues": [
+    "Gilet serré pour qu'il ne glisse pas",
+    "Amplitude complète",
+    "Garder 1–2 reps de réserve"
+   ],
+   "why": "Progression de 6 à 10 kg. Plafond volontaire 10 kg (≈ 20 % du poids de corps)."
+  },
+  "scap_pushup": {
+   "name": "Scap push-ups",
+   "how": "Planche haute, bras tendus. Sans plier les coudes, laisser les omoplates se rapprocher (le buste descend de quelques cm), puis les écarter en poussant le sol.",
+   "cues": [
+    "Coudes verrouillés",
+    "Petit mouvement",
+    "Bassin immobile"
+   ],
+   "why": "Échauffement des muscles qui fixent l'omoplate (dentelé antérieur)."
+  },
+  "pike": {
+   "name": "Pike push-ups",
+   "how": "Pieds sur une chaise, hanches hautes, corps en V inversé. Descendre la tête vers le sol en pliant les coudes, remonter.",
+   "cues": [
+    "Coudes à ~45°, pas écartés",
+    "Regarder entre les pieds",
+    "Plus les hanches sont hautes, plus c'est dur"
+   ],
+   "why": "Remplace le développé militaire sans matériel : épaules avant et triceps."
+  },
+  "press": {
+   "name": "Développé haltères",
+   "how": "Assise ou debout, haltères à hauteur d'épaules, paumes vers l'avant. Pousser au-dessus de la tête jusqu'aux bras tendus, redescendre contrôlé.",
+   "cues": [
+    "Abdos serrés, pas de cambrure",
+    "Trajectoire verticale, pas vers l'avant",
+    "Bras tendus en haut sans verrouiller brutalement"
+   ],
+   "why": "Épaules, triceps, haut des trapèzes. Charges : 2 × 4–5 kg au départ."
+  },
+  "lateral": {
+   "name": "Élévations latérales",
+   "how": "Petits poids ou élastique sous les pieds. Lever les bras sur les côtés jusqu'à l'horizontale, coudes légèrement fléchis, descendre en 2 s.",
+   "cues": [
+    "Pas d'élan",
+    "S'arrêter à l'horizontale",
+    "Léger : 2–3 kg suffisent"
+   ],
+   "why": "Deltoïde moyen : largeur et volume d'épaules."
+  },
+  "shrug": {
+   "name": "Shrugs",
+   "how": "Haltères le long du corps ou sac tenu devant à deux mains. Hausser les épaules droit vers les oreilles, tenir 5 s en haut, redescendre lentement.",
+   "cues": [
+    "Pas de rotation des épaules",
+    "Bras tendus, c'est un mouvement d'épaules",
+    "Tenue isométrique en haut"
+   ],
+   "why": "Trapèzes supérieurs : c'est précisément ce qui encaisse les sangles du sac."
+  },
+  "neck": {
+   "name": "Cou isométrique",
+   "how": "Main posée sur le front : pousser la tête contre la main sans bouger, 20–45 s. Idem main sur la nuque, puis tempe gauche, tempe droite.",
+   "cues": [
+    "Intensité modérée (50 %)",
+    "Respirer normalement",
+    "Augmenter la durée avant l'intensité"
+   ],
+   "why": "Rôle : port du casque et des sangles, résistance aux chocs. Jamais de mouvement brusque avec charge."
+  },
+  "touch": {
+   "name": "Touchers d'épaules",
+   "how": "Planche haute, pieds écartés largeur hanches, gilet lesté. Toucher l'épaule gauche avec la main droite, reposer, puis l'inverse, sans que le bassin bouge.",
+   "cues": [
+    "Bassin immobile : c'est le but",
+    "Rythme régulier",
+    "Pieds plus écartés = plus facile"
+   ],
+   "why": "Gainage anti-rotation + stabilité d'épaule sur un bras."
+  },
+  "plank": {
+   "name": "Planche",
+   "how": "Avant-bras au sol, coudes sous les épaules, corps en ligne de la tête aux talons. Tenir.",
+   "cues": [
+    "Fessiers serrés",
+    "Pas de cambrure, pas de fesses en l'air",
+    "Arrêter quand le bassin descend"
+   ],
+   "why": "Référence de gainage ; avec gilet à partir du bloc 3."
+  },
+  "ytw": {
+   "name": "Y-T-W",
+   "how": "Allongée sur le ventre, front au sol. Lever les bras tendus en Y (vers l'avant en diagonale), tenir 1 s ; puis en T (sur les côtés) ; puis en W (coudes pliés). 1 kg maximum dans les mains.",
+   "cues": [
+    "Pouces vers le ciel",
+    "Décoller les bras, pas la poitrine",
+    "Léger : c'est du contrôle"
+   ],
+   "why": "Muscles profonds de l'épaule et du haut du dos ; prévention des douleurs sous sangles."
+  },
+  "superman": {
+   "name": "Superman",
+   "how": "Allongée sur le ventre, bras devant. Décoller simultanément bras et jambes, tenir 2 s, reposer.",
+   "cues": [
+    "Regard au sol, nuque longue",
+    "Mouvement de quelques cm",
+    "Pas de blocage de respiration"
+   ],
+   "why": "Lombaires et fessiers : protègent le bas du dos sous charge."
+  },
+  "deadbug": {
+   "name": "Dead bug",
+   "how": "Allongée sur le dos, bras vers le plafond, hanches et genoux à 90°. Allonger lentement une jambe et le bras opposé, bas du dos plaqué au sol, revenir.",
+   "cues": [
+    "Lombaires collées au sol tout le temps",
+    "Lent",
+    "Expirer en allongeant"
+   ],
+   "why": "Gainage profond, coordination."
+  },
+  "walk": {
+   "name": "Marche avec sac",
+   "how": "Sac réglé : charge dense, haute et contre le dos ; sangles serrées ; ceinture ventrale serrée si le sac en a une. Marcher à allure soutenue mais tenable (5,5–6 km/h sur plat).",
+   "cues": [
+    "Pas courts en montée",
+    "Au premier point chaud au pied : s'arrêter et taper",
+    "Fourmillements dans les bras = desserrer immédiatement"
+   ],
+   "why": "C'est l'entraînement le plus spécifique du plan. Charge et distance n'augmentent jamais la même semaine. Rangers à partir de S6."
+  },
+  "arm_hold": {
+   "name": "Tenue « arme » bras tendus",
+   "how": "Objet de 3,6 kg tenu à deux mains, bras tendus devant à hauteur d'épaules. Tenir le plus longtemps possible sans que les mains passent sous la ligne des épaules.",
+   "cues": [
+    "Épaules basses",
+    "Abdos serrés, pas de cambrure",
+    "Chrono"
+   ],
+   "why": "Cible : 60–90 s. Mesure la fatigue d'épaule spécifique au port de l'arme."
+  },
+  "stretch": {
+   "name": "Étirements",
+   "how": "Pectoraux : avant-bras contre un cadre de porte, avancer le buste. Dorsaux : suspension passive à la barre. Mollets : talon au sol, jambe arrière tendue, puis genou fléchi. Ischios : jambe tendue sur une marche.",
+   "cues": [
+    "30 s par position",
+    "Respiration lente",
+    "Pas de douleur vive"
+   ],
+   "why": "Retour au calme ; pas d'effet prouvé sur les courbatures, utile pour la mobilité."
+  },
+  "calf": {
+   "name": "Mollets et tibial antérieur",
+   "how": "Montées sur pointes : sur une marche, monter sur la pointe des pieds, descendre talon sous le niveau de la marche. Relevés de pointes : dos au mur, talons au sol, relever les orteils vers soi.",
+   "cues": [
+    "Lent en descente",
+    "Amplitude complète",
+    "2× par semaine dès S5"
+   ],
+   "why": "Prévention de la périostite tibiale, fréquente au début du port de charge en rangers."
+  },
+  "hyrox": {
+   "name": "Hyrox",
+   "how": "Séance en salle, inchangée. Rien d'autre ce jour-là.",
+   "cues": [
+    "Repas 1–2 h avant : ~50 g de glucides",
+    "Whey 25–30 g + glucides dans les 2 h après"
+   ],
+   "why": "Reste à 2× par semaine pendant tout le plan."
+  },
+  "ggt": {
+   "name": "Pompes du matin (facultatif)",
+   "how": "2 séries de 6 pompes faciles, loin de l'échec, 2 min de repos. Sauter si fatigue ou si l'Hyrox est le matin.",
+   "cues": [
+    "Jamais à l'échec",
+    "Technique parfaite"
+   ],
+   "why": "Pratique de fréquence : plus de répétitions de qualité dans la semaine sans fatigue."
+  },
+  "test_pull": {
+   "name": "Test tractions",
+   "how": "Après échauffement : une seule série maximale de tractions strictes (pronation, menton au-dessus, bras tendus en bas).",
+   "cues": [
+    "Repos 4 min avant le test suivant"
+   ],
+   "why": "Même protocole à chaque test (S4, S8, S12, S16, S20, S24)."
+  },
+  "test_push": {
+   "name": "Test pompes",
+   "how": "Une série maximale de pompes strictes menton au sol, sans pause de plus de 2 s.",
+   "cues": [],
+   "why": "Référence de départ : 11."
+  },
+  "test_walk": {
+   "name": "Test marche",
+   "how": "Même parcours plat à chaque test, allure soutenue mais tenable. Noter le temps, le ressenti épaules/nuque/pieds juste après, et les courbatures le lendemain matin.",
+   "cues": [
+    "Ne pas courir",
+    "Rangers dès le test S8"
+   ],
+   "why": "Sert à calibrer le bloc suivant."
+  },
+  "weigh": {
+   "name": "Pesée",
+   "how": "Le matin, après les toilettes, avant de manger, 2–3 fois par semaine. Noter la moyenne de la semaine, pas une pesée isolée.",
+   "cues": [],
+   "why": "Cible : +0,10–0,15 kg par semaine en moyenne."
+  }
+ },
+ "tests": [
+  "Tractions strictes (reps)",
+  "Pompes strictes (reps)",
+  "Suspension (s)",
+  "Tenue arme 3,6 kg (s)",
+  "Touchers d'épaules 30 s (nb)",
+  "Planche (s)",
+  "Marche test (km)",
+  "Marche test (sac kg)",
+  "Marche test (temps min)",
+  "Épaules après marche (0–10)",
+  "Pieds (0–10)"
+ ]
+}
