@@ -74,7 +74,9 @@ p{margin:6px 0}
 .exrow .sets{font-weight:800;font-size:18px;font-variant-numeric:tabular-nums;grid-column:1;}
 .exrow .rest{grid-column:2;grid-row:1 / span 3;align-self:start;display:flex;flex-direction:column;align-items:flex-end;gap:6px}
 .exrow .rest button{border:1.5px solid var(--accent);background:transparent;color:var(--accent);border-radius:8px;padding:6px 10px;font-weight:700;font-size:15px;white-space:nowrap}
-.exrow .rest .chk{width:40px;height:40px;border-radius:10px;border:2px solid var(--line);background:var(--surface);font-size:20px}
+.exrow .rest button.work{border-color:var(--ink);color:var(--ink)}
+.nutri li{margin:8px 0}
+.exrow .rest .chk{min-width:52px;height:40px;padding:0 8px;border-radius:10px;border:2px solid var(--line);background:var(--surface);font-size:17px;font-weight:800;font-variant-numeric:tabular-nums}
 .exrow .rest .chk.on{background:var(--done);border-color:var(--done);color:var(--accent-ink)}
 .exrow .note{grid-column:1;color:var(--muted);font-size:15px}
 .notes li{margin:4px 0}
@@ -96,7 +98,10 @@ p{margin:6px 0}
 .toast.show{opacity:1}
 
 /* timer */
-#timer{position:fixed;left:0;right:0;bottom:calc(64px + env(safe-area-inset-bottom,0px));background:var(--signal);color:#fff;display:flex;align-items:center;gap:14px;padding:10px 16px;z-index:5}
+#timer{position:fixed;left:0;right:0;bottom:calc(64px + env(safe-area-inset-bottom,0px));background:var(--signal);}
+#timer.work{background:var(--accent);color:var(--accent-ink)}
+#timer.work button{background:rgba(0,0,0,.15);color:inherit}
+#timer{color:#fff;display:flex;align-items:center;gap:14px;padding:10px 16px;z-index:5}
 #timer .big{font-size:40px;font-weight:800;font-variant-numeric:tabular-nums;line-height:1}
 #timer .lbl{flex:1;font-weight:600}
 #timer button{background:rgba(255,255,255,.22);border:0;color:#fff;border-radius:8px;padding:10px 14px;font-weight:700}
@@ -150,7 +155,20 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
 <div class="toast" id="toast"></div>
 
 <script id="plan-data" type="application/json">{
- "version": "2026-10-06",
+ "version": "2026-10-07",
+ "nutrition": [
+  "Petit-déjeuner, tous les jours : tartines + 1 œuf + 20 g de whey isolate dans du lait froid (≈ 30 g de protéines). Pas dans le café chaud : ça floconne.",
+  "Déjeuner et dîner : une portion de protéines de la taille de la paume (viande, poisson, œufs, tofu, légumineuses) ≈ 25–30 g.",
+  "Un yaourt, skyr ou fromage blanc dans la journée. Total visé ≈ 100 g/j sans compter.",
+  "Shake post-séance : seulement si le prochain repas est à plus de 2 h.",
+  "Caséine le soir : seulement si le dîner a été léger en protéines (pâtes, soupe, pizza). Pas en routine.",
+  "Créatine : 3 g chaque jour, repos compris, avec un repas. Attendre +0,5–1 kg d'eau les premières semaines.",
+  "Hyrox : ~50 g de glucides 1–2 h avant (pain, riz, banane) ; 1 café 30–60 min avant, pas plus.",
+  "Séances < 90 min : de l'eau suffit.",
+  "Marche > 90 min ou 2 jours consécutifs : 400–600 ml/h + une pastille d'électrolytes ou un en-cas salé ; 30–40 g de glucides/h au-delà de 90 min.",
+  "Balance : 2–3 pesées par semaine le matin, juger la moyenne sur 3 semaines. Cible +0,10 à 0,15 kg/sem ; sinon ±100 kcal.",
+  "Trop de protéines (shake en plus) : sans danger à ce niveau ; le seul risque est de couper l'appétit au repas suivant."
+ ],
  "stage": {
   "start": "2027-04-17",
   "end": "2027-05-03"
@@ -429,7 +447,8 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
       }
      ],
      "notes": [
-      "Jamais à l'échec : le test mesure, les séances construisent."
+      "Jamais à l'échec : le test mesure, les séances construisent.",
+      "Shrugs : adapté le 7 oct. (sac 10 kg trop lourd) → 6 kg, puis 8 kg quand 4 × 12 passent avec la tenue 5 s. Les haltères règlent ce problème (2 × 8 → 2 × 12 kg)."
      ]
     },
     {
@@ -815,7 +834,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
         {
          "ex": "Shrugs (haltères 2 × 10 kg ou sac 10 kg)",
          "id": "shrug",
-         "sets": "3 × 15 (+ 5 s en haut) — 2 × 10 kg",
+         "sets": "4 × 10 (+ 5 s en haut) — sac 6 kg ou haltères 2 × 8 kg",
          "rest": "60 s",
          "note": "Tenir 5 s en haut."
         },
@@ -849,7 +868,8 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
       }
      ],
      "notes": [
-      "Jamais à l'échec : le test mesure, les séances construisent."
+      "Jamais à l'échec : le test mesure, les séances construisent.",
+      "Shrugs : adapté le 7 oct. (sac 10 kg trop lourd) → 6 kg, puis 8 kg quand 4 × 12 passent avec la tenue 5 s. Les haltères règlent ce problème (2 × 8 → 2 × 12 kg)."
      ]
     },
     {
@@ -1262,7 +1282,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
         {
          "ex": "Shrugs (haltères 2 × 10 kg ou sac 10 kg)",
          "id": "shrug",
-         "sets": "4 × 15 (+ 5 s en haut) — 2 × 10 kg",
+         "sets": "4 × 12 (+ 5 s en haut) — sac 6 kg ou haltères 2 × 8 kg",
          "rest": "60 s",
          "note": "Tenir 5 s en haut."
         },
@@ -1296,7 +1316,8 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
       }
      ],
      "notes": [
-      "Jamais à l'échec : le test mesure, les séances construisent."
+      "Jamais à l'échec : le test mesure, les séances construisent.",
+      "Shrugs : adapté le 7 oct. (sac 10 kg trop lourd) → 6 kg, puis 8 kg quand 4 × 12 passent avec la tenue 5 s. Les haltères règlent ce problème (2 × 8 → 2 × 12 kg)."
      ]
     },
     {
@@ -1702,7 +1723,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
         {
          "ex": "Shrugs (haltères 2 × 10 kg ou sac 10 kg)",
          "id": "shrug",
-         "sets": "2 × 12 — 2 × 10 kg",
+         "sets": "2 × 12 — sac 6 kg",
          "rest": "60 s",
          "note": "Tenir 5 s en haut."
         },
@@ -1736,7 +1757,8 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
       }
      ],
      "notes": [
-      "Jamais à l'échec : le test mesure, les séances construisent."
+      "Jamais à l'échec : le test mesure, les séances construisent.",
+      "Shrugs : adapté le 7 oct. (sac 10 kg trop lourd) → 6 kg, puis 8 kg quand 4 × 12 passent avec la tenue 5 s. Les haltères règlent ce problème (2 × 8 → 2 × 12 kg)."
      ]
     },
     {
@@ -4667,8 +4689,10 @@ let toastT; function toast(m){ const t=$('#toast'); t.textContent=m; t.classList
 // ---------- timer ----------
 let tEnd=0, tInt=null, actx=null;
 function beep(){ try{ actx = actx || new (window.AudioContext||window.webkitAudioContext)(); const o=actx.createOscillator(), g=actx.createGain(); o.connect(g); g.connect(actx.destination); o.frequency.value=880; g.gain.value=.25; o.start(); setTimeout(()=>{o.stop();},350);}catch(e){} if(navigator.vibrate) navigator.vibrate([200,100,200]); }
+function parseSets(s){ const m = String(s).match(/^\s*(\d+)\s*[×x]/); return m ? +m[1] : 0; }
+function parseWork(s){ const str=String(s); if(/max/.test(str)) return 0; const m = str.match(/[×x]\s*(\d+)\s*(min|s)\b/) || str.match(/^\s*(\d+)\s*(min|s)\b/); if(!m) return 0; return m[2]==='min' ? +m[1]*60 : +m[1]; }
 function parseRest(s){ const m = String(s).match(/(\d+)\s*min(?:\s*(\d+))?|(\d+)\s*s/); if(!m) return 0; if(m[1]) return +m[1]*60 + (m[2]?+m[2]:0); return +m[3]; }
-function startTimer(sec,label){ if(!sec) return; tEnd = Date.now()+sec*1000; $('#tlbl').textContent = label||'Repos'; $('#timer').classList.remove('hidden'); clearInterval(tInt); tick(); tInt=setInterval(tick,250); }
+function startTimer(sec,label,work){ if(!sec) return; tEnd = Date.now()+sec*1000; $('#tlbl').textContent = (work?'Effort — ':'Repos — ')+(label||''); $('#timer').classList.toggle('work', !!work); $('#timer').classList.remove('hidden'); clearInterval(tInt); tick(); tInt=setInterval(tick,250); }
 function tick(){ const r = Math.max(0, Math.ceil((tEnd-Date.now())/1000)); $('#tbig').textContent = Math.floor(r/60)+':'+String(r%60).padStart(2,'0'); if(r<=0){ clearInterval(tInt); beep(); setTimeout(()=>$('#timer').classList.add('hidden'),1500);} }
 $('#tstop').onclick = ()=>{ clearInterval(tInt); $('#timer').classList.add('hidden'); };
 $('#tplus').onclick = ()=>{ tEnd += 30000; tick(); };
@@ -4713,11 +4737,13 @@ function viewToday(){ const w = weekFor(todayISO()); const cur = weeks[state.wee
 
 function viewWeek(){ const w = weeks[state.week-1]; return summaryHTML(w) + `<h2>Semaine</h2>` + (w.detailed?'':'<p class="muted">Semaine en structure : les fiches détaillées seront générées à la mise à jour du plan.</p>') + w.days.map(dayRow).join(''); }
 
+function cnt(v,N){ if(v===true) return N||1; return typeof v==='number' ? v : 0; }
 function viewSession(){ const d = dayOf(state.date); if(!d) return '<p>Jour introuvable.</p>'; const l = LOG.sessions[d.date] || {items:{}}; l.items = l.items||{};
   let h = `<button class="btn ghost small" data-back="1">‹ Semaine</button><div class="sess-head" style="margin-top:12px"><div class="title">${esc(d.day)} — ${esc(d.title)}</div><div class="meta">${esc(fmtD(d.date))}${d.duration?' · '+esc(d.duration):''}</div><p>${esc(d.goal)}</p></div>`;
   let idx=0;
-  d.blocks.forEach(b=>{ h += `<div class="block"><h4>${esc(b.title)}</h4>`; b.items.forEach(it=>{ const i=idx++; const r=parseRest(it.rest); const on = l.items[i] ? 'on':'';
-    h += `<div class="exrow"><div class="name"><button class="info" data-ex="${esc(it.id)}" aria-label="Explication">i</button><span>${esc(it.ex)}</span></div><div class="rest">${r?`<button data-rest="${r}" data-lbl="${esc(it.ex)}">⏱ ${esc(it.rest)}</button>`:''}<button class="chk ${on}" data-chk="${i}" aria-label="Fait">${on?'✓':''}</button></div><div class="sets">${esc(it.sets)}</div>${it.note?`<div class="note">${esc(it.note)}</div>`:''}</div>`; }); h += '</div>'; });
+  d.blocks.forEach(b=>{ h += `<div class="block"><h4>${esc(b.title)}</h4>`; b.items.forEach(it=>{ const i=idx++; const r=parseRest(it.rest), wk=parseWork(it.sets), N=parseSets(it.sets); const n = cnt(l.items[i], N); const on = (N? n>=N : !!l.items[i]) ? 'on':'';
+    const lab = N ? `${n}/${N}` : (on?'✓':'');
+    h += `<div class="exrow"><div class="name"><button class="info" data-ex="${esc(it.id)}" aria-label="Explication">i</button><span>${esc(it.ex)}</span></div><div class="rest">${wk?`<button class="work" data-work="${wk}" data-lbl="${esc(it.ex)}">▶ ${wk>=60?Math.round(wk/60)+' min':wk+' s'}</button>`:''}${r?`<button data-rest="${r}" data-lbl="${esc(it.ex)}">⏱ ${esc(it.rest)}</button>`:''}<button class="chk ${on}" data-chk="${i}" data-n="${N}" aria-label="Séries faites">${lab}</button></div><div class="sets">${esc(it.sets)}</div>${it.note?`<div class="note">${esc(it.note)}</div>`:''}</div>`; }); h += '</div>'; });
   if(d.notes&&d.notes.length) h += '<h3>Notes</h3><ul class="notes">'+d.notes.map(n=>'<li>'+esc(n)+'</li>').join('')+'</ul>';
   const isWalk = d.type==='walk' || d.type==='test';
   h += `<h3>Bilan de la séance</h3><div class="card form">
@@ -4744,7 +4770,8 @@ function viewWeight(){ const ws = LOG.weights.slice().sort((a,b)=>a.date<b.date?
   return h; }
 
 function viewMore(){ const ids = Object.keys(PLAN.glossary).sort((a,b)=>PLAN.glossary[a].name.localeCompare(PLAN.glossary[b].name,'fr'));
-  return `<h2>Données</h2><div class="card form">
+  const nutri = (PLAN.nutrition||[]).length ? `<h2>Nutrition</h2><div class="card"><ul class="nutri">${PLAN.nutrition.map(x=>'<li>'+esc(x)+'</li>').join('')}</ul></div>` : '';
+  return nutri + `<h2>Données</h2><div class="card form">
     <button class="btn" id="export">Exporter mes données (JSON)</button>
     <label>Importer des données<input type="file" accept=".json,application/json" id="import"></label>
     <label>Charger un nouveau plan (plan.json)<input type="file" accept=".json,application/json" id="loadplan"></label>
@@ -4764,7 +4791,11 @@ function bind(){ const v = $('#view');
   v.querySelectorAll('[data-back]').forEach(b=>b.onclick=()=>{ state.view='week'; render(); });
   v.querySelectorAll('[data-ex]').forEach(b=>b.onclick=()=>showEx(b.dataset.ex));
   v.querySelectorAll('[data-rest]').forEach(b=>b.onclick=()=>startTimer(+b.dataset.rest, b.dataset.lbl));
-  v.querySelectorAll('[data-chk]').forEach(b=>b.onclick=()=>{ const l = LOG.sessions[state.date] = LOG.sessions[state.date]||{items:{}}; l.items=l.items||{}; const i=b.dataset.chk; l.items[i]=!l.items[i]; b.classList.toggle('on', l.items[i]); b.textContent = l.items[i]?'✓':''; save(); });
+  v.querySelectorAll('[data-chk]').forEach(b=>b.onclick=()=>{ const l = LOG.sessions[state.date] = LOG.sessions[state.date]||{items:{}}; l.items=l.items||{}; const i=b.dataset.chk, N=+b.dataset.n;
+    if(N){ let n = cnt(l.items[i],N); n = n>=N ? 0 : n+1; l.items[i]=n; b.classList.toggle('on', n>=N); b.textContent=`${n}/${N}`; if(n>=N) beep(); }
+    else { l.items[i]=!l.items[i]; b.classList.toggle('on', l.items[i]); b.textContent = l.items[i]?'✓':''; }
+    save(); });
+  v.querySelectorAll('[data-work]').forEach(b=>b.onclick=()=>startTimer(+b.dataset.work, b.dataset.lbl, true));
   const st = $('#status'); if(st) st.querySelectorAll('button').forEach(b=>b.onclick=()=>{ st.querySelectorAll('button').forEach(x=>x.classList.remove('on')); b.classList.add('on'); });
   const ss = $('#savesess'); if(ss) ss.onclick=()=>{ const l = LOG.sessions[state.date] = LOG.sessions[state.date]||{items:{}}; const on = st.querySelector('button.on'); l.status = on?on.dataset.s:''; if(!l.status) delete l.status;
     ['rpe','dur','km','kg'].forEach(k=>{ const e=$('#'+k); if(e) l[k]=e.value===''?undefined:+e.value; }); l.note=$('#note').value; if(l.status==='done'&&!l.date) l.date=todayISO(); save(); toast('Séance enregistrée'); state.view='week'; render(); };

@@ -1,5 +1,18 @@
 {
- "version": "2026-10-06",
+ "version": "2026-10-07",
+ "nutrition": [
+  "Petit-déjeuner, tous les jours : tartines + 1 œuf + 20 g de whey isolate dans du lait froid (≈ 30 g de protéines). Pas dans le café chaud : ça floconne.",
+  "Déjeuner et dîner : une portion de protéines de la taille de la paume (viande, poisson, œufs, tofu, légumineuses) ≈ 25–30 g.",
+  "Un yaourt, skyr ou fromage blanc dans la journée. Total visé ≈ 100 g/j sans compter.",
+  "Shake post-séance : seulement si le prochain repas est à plus de 2 h.",
+  "Caséine le soir : seulement si le dîner a été léger en protéines (pâtes, soupe, pizza). Pas en routine.",
+  "Créatine : 3 g chaque jour, repos compris, avec un repas. Attendre +0,5–1 kg d'eau les premières semaines.",
+  "Hyrox : ~50 g de glucides 1–2 h avant (pain, riz, banane) ; 1 café 30–60 min avant, pas plus.",
+  "Séances < 90 min : de l'eau suffit.",
+  "Marche > 90 min ou 2 jours consécutifs : 400–600 ml/h + une pastille d'électrolytes ou un en-cas salé ; 30–40 g de glucides/h au-delà de 90 min.",
+  "Balance : 2–3 pesées par semaine le matin, juger la moyenne sur 3 semaines. Cible +0,10 à 0,15 kg/sem ; sinon ±100 kcal.",
+  "Trop de protéines (shake en plus) : sans danger à ce niveau ; le seul risque est de couper l'appétit au repas suivant."
+ ],
  "stage": {
   "start": "2027-04-17",
   "end": "2027-05-03"
@@ -278,7 +291,8 @@
       }
      ],
      "notes": [
-      "Jamais à l'échec : le test mesure, les séances construisent."
+      "Jamais à l'échec : le test mesure, les séances construisent.",
+      "Shrugs : adapté le 7 oct. (sac 10 kg trop lourd) → 6 kg, puis 8 kg quand 4 × 12 passent avec la tenue 5 s. Les haltères règlent ce problème (2 × 8 → 2 × 12 kg)."
      ]
     },
     {
@@ -664,7 +678,7 @@
         {
          "ex": "Shrugs (haltères 2 × 10 kg ou sac 10 kg)",
          "id": "shrug",
-         "sets": "3 × 15 (+ 5 s en haut) — 2 × 10 kg",
+         "sets": "4 × 10 (+ 5 s en haut) — sac 6 kg ou haltères 2 × 8 kg",
          "rest": "60 s",
          "note": "Tenir 5 s en haut."
         },
@@ -698,7 +712,8 @@
       }
      ],
      "notes": [
-      "Jamais à l'échec : le test mesure, les séances construisent."
+      "Jamais à l'échec : le test mesure, les séances construisent.",
+      "Shrugs : adapté le 7 oct. (sac 10 kg trop lourd) → 6 kg, puis 8 kg quand 4 × 12 passent avec la tenue 5 s. Les haltères règlent ce problème (2 × 8 → 2 × 12 kg)."
      ]
     },
     {
@@ -1111,7 +1126,7 @@
         {
          "ex": "Shrugs (haltères 2 × 10 kg ou sac 10 kg)",
          "id": "shrug",
-         "sets": "4 × 15 (+ 5 s en haut) — 2 × 10 kg",
+         "sets": "4 × 12 (+ 5 s en haut) — sac 6 kg ou haltères 2 × 8 kg",
          "rest": "60 s",
          "note": "Tenir 5 s en haut."
         },
@@ -1145,7 +1160,8 @@
       }
      ],
      "notes": [
-      "Jamais à l'échec : le test mesure, les séances construisent."
+      "Jamais à l'échec : le test mesure, les séances construisent.",
+      "Shrugs : adapté le 7 oct. (sac 10 kg trop lourd) → 6 kg, puis 8 kg quand 4 × 12 passent avec la tenue 5 s. Les haltères règlent ce problème (2 × 8 → 2 × 12 kg)."
      ]
     },
     {
@@ -1551,7 +1567,7 @@
         {
          "ex": "Shrugs (haltères 2 × 10 kg ou sac 10 kg)",
          "id": "shrug",
-         "sets": "2 × 12 — 2 × 10 kg",
+         "sets": "2 × 12 — sac 6 kg",
          "rest": "60 s",
          "note": "Tenir 5 s en haut."
         },
@@ -1585,7 +1601,8 @@
       }
      ],
      "notes": [
-      "Jamais à l'échec : le test mesure, les séances construisent."
+      "Jamais à l'échec : le test mesure, les séances construisent.",
+      "Shrugs : adapté le 7 oct. (sac 10 kg trop lourd) → 6 kg, puis 8 kg quand 4 × 12 passent avec la tenue 5 s. Les haltères règlent ce problème (2 × 8 → 2 × 12 kg)."
      ]
     },
     {
