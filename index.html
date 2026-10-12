@@ -61,6 +61,8 @@ p{margin:6px 0}
 .dayrow .st.skip{border-color:var(--signal);color:var(--signal)}
 .dayrow.hyrox .d{color:var(--hyrox)}
 .dayrow.test .d{color:var(--test)}
+.dayrow.extra{border-style:dashed;background:transparent}
+.dayrow.extra .st{font-size:20px}
 
 /* session */
 .sess-head{margin-bottom:12px}
@@ -155,7 +157,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
 <div class="toast" id="toast"></div>
 
 <script id="plan-data" type="application/json">{
- "version": "2026-10-07",
+ "version": "2026-10-13",
  "nutrition": [
   "Petit-déjeuner, tous les jours : tartines + 1 œuf + 20 g de whey isolate dans du lait froid (≈ 30 g de protéines). Pas dans le café chaud : ça floconne.",
   "Déjeuner et dîner : une portion de protéines de la taille de la paume (viande, poisson, œufs, tofu, légumineuses) ≈ 25–30 g.",
@@ -304,7 +306,8 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
       }
      ],
      "notes": [
-      "Pas d'échec. Sans haltères : rowing = sac 10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés."
+      "Pas d'échec. Sans haltères : rowing = sac 8–10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés.",
+      "Sans élastiques : pull-apart et dislocations → cercles de bras + scap push-ups 2 × 10 ; tirage → rowing serviette ; face pull → Y-T-W ; curl → sac 6 kg. Sans barre : négatives → rowing sac 2 séries de plus, suspension → tenue sac 10 kg à bout de bras 2 × 30 s / main."
      ]
     },
     {
@@ -546,7 +549,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
      "title": "Court",
      "type": "short",
      "duration": "15 min",
-     "goal": "Fréquence tractions/pompes. Si sortie longue dimanche : repos complet à la place.",
+     "goal": "Fréquence tractions/pompes.",
      "blocks": [
       {
        "title": "Séance",
@@ -598,7 +601,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
   {
    "num": 2,
    "bloc": "1 Base 1",
-   "goal": "Même structure, +1 rep partout. Première sortie longue dimanche.",
+   "goal": "Reprise : séance A au niveau S1 (aucune traction faite en S1), première marche avec sac vendredi, première sortie longue dimanche. Peser 2–3 fois cette semaine.",
    "detailed": true,
    "days": [
     {
@@ -648,7 +651,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
         {
          "ex": "Tractions négatives",
          "id": "neg",
-         "sets": "4 × 4 (descente 5 s)",
+         "sets": "4 × 3 (descente 5 s)",
          "rest": "2 min",
          "note": "Si la descente passe sous 3 s, arrêter le bloc."
         }
@@ -660,14 +663,14 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
         {
          "ex": "Rowing 1 bras (haltère ou sac par la poignée)",
          "id": "row",
-         "sets": "3 × 12 / bras — 10 kg",
+         "sets": "3 × 12 / bras — 8–10 kg",
          "rest": "90 s",
          "note": "Coude vers la hanche, pas de rotation du buste."
         },
         {
          "ex": "Tirage élastique 15 kg assis",
          "id": "row_band",
-         "sets": "3 × 12",
+         "sets": "3 × 12 (sans élastique : rowing serviette 3 × 10)",
          "rest": "60 s",
          "note": "Buste droit, 1 s omoplates serrées."
         }
@@ -679,14 +682,14 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
         {
          "ex": "Face pull élastique 10 kg",
          "id": "facepull",
-         "sets": "3 × 15",
+         "sets": "3 × 15 (sans élastique : Y-T-W 2 × 8)",
          "rest": "45 s",
          "note": "Coudes hauts."
         },
         {
          "ex": "Curl biceps élastique 15 kg ou haltères 2 × 5 kg",
          "id": "curl",
-         "sets": "3 × 12",
+         "sets": "3 × 12 (sans élastique : curl sac 6 kg à deux mains)",
          "rest": "60 s",
          "note": "Descente 3 s."
         }
@@ -725,43 +728,42 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
       }
      ],
      "notes": [
-      "Pas d'échec. Sans haltères : rowing = sac 10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés."
+      "Pas d'échec. Sans haltères : rowing = sac 8–10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés.",
+      "Sans élastiques : pull-apart et dislocations → cercles de bras + scap push-ups 2 × 10 ; tirage → rowing serviette ; face pull → Y-T-W ; curl → sac 6 kg. Sans barre : négatives → rowing sac 2 séries de plus, suspension → tenue sac 10 kg à bout de bras 2 × 30 s / main."
      ]
     },
     {
      "day": "Mardi",
      "date": "2026-10-13",
-     "title": "Hyrox",
-     "type": "hyrox",
-     "duration": "séance Hyrox",
-     "goal": "Rien d'autre.",
+     "title": "Marche sac 5 kg (Hyrox annulé)",
+     "type": "walk",
+     "duration": "45 min",
+     "goal": "Remplace l'Hyrox annulé : première marche avec sac, sans fatiguer les jambes avant jeudi.",
      "blocks": [
       {
-       "title": "Option matin (5 min)",
+       "title": "Marche",
        "items": [
         {
-         "ex": "Pompes faciles",
-         "id": "ggt",
-         "sets": "2 × 6",
-         "rest": "2 min",
-         "note": "Sauter si fatigue."
-        }
-       ]
-      },
-      {
-       "title": "Autour de l'Hyrox",
-       "items": [
+         "ex": "Marche — sac 5 kg — chaussures de sport — plat ou léger dénivelé",
+         "id": "walk",
+         "sets": "40 min",
+         "rest": "—",
+         "note": "6 km/h. Sac haut et collé au dos, sangles serrées. Noter frottements et épaules."
+        },
         {
-         "ex": "Avant : ~50 g glucides 1–2 h avant · Après : whey 25–30 g + glucides",
-         "id": "hyrox",
-         "sets": "—",
+         "ex": "Étirements mollets + ischios, regarder les pieds",
+         "id": "stretch",
+         "sets": "5 min",
          "rest": "—",
          "note": ""
         }
        ]
       }
      ],
-     "notes": []
+     "notes": [
+      "Pas de 5 km test : inutile pour l'objectif et coûteux avant l'Hyrox de jeudi.",
+      "Vendredi : séance C normale (dos 20' + marche 30')."
+     ]
     },
     {
      "day": "Mercredi",
@@ -942,7 +944,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
         {
          "ex": "Marche",
          "id": "walk",
-         "sets": "35 min — sac 5 kg — chaussures de sport — plat",
+         "sets": "30 min — sac 5 kg — chaussures de sport — plat",
          "rest": "—",
          "note": "Sac haut et collé au dos. Noter frottements et épaules."
         },
@@ -964,38 +966,11 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
     {
      "day": "Samedi",
      "date": "2026-10-17",
-     "title": "Court",
-     "type": "short",
-     "duration": "15 min",
-     "goal": "Fréquence tractions/pompes. Si sortie longue dimanche : repos complet à la place.",
-     "blocks": [
-      {
-       "title": "Séance",
-       "items": [
-        {
-         "ex": "Suspension à la barre",
-         "id": "hang",
-         "sets": "2 × 20 s",
-         "rest": "30 s",
-         "note": ""
-        },
-        {
-         "ex": "Tractions assistées (élastique 15 kg sous un pied)",
-         "id": "assist",
-         "sets": "3 × 6 — élastique 15 kg",
-         "rest": "2 min",
-         "note": "Menton au-dessus, descente 2 s."
-        },
-        {
-         "ex": "Pompes",
-         "id": "pushup",
-         "sets": "3 × 7",
-         "rest": "90 s",
-         "note": "Loin de l'échec."
-        }
-       ]
-      }
-     ],
+     "title": "Repos (sortie longue demain)",
+     "type": "rest",
+     "duration": "",
+     "goal": "Repos complet : la sortie longue de dimanche remplace la séance courte.",
+     "blocks": [],
      "notes": []
     },
     {
@@ -1004,7 +979,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
      "title": "Sortie longue",
      "type": "walk",
      "duration": "0–75 min",
-     "goal": "Sortie longue : marche 6 km — sac 5 kg — chaussures de sport — 5,5–6 km/h. Samedi = repos complet.",
+     "goal": "Sortie longue : marche 5–6 km — sac 5 kg — chaussures de sport — 5,5–6 km/h. Samedi = repos complet.",
      "blocks": [
       {
        "title": "Sortie longue",
@@ -1012,7 +987,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
         {
          "ex": "Marche avec sac",
          "id": "walk",
-         "sets": "6 km — sac 5 kg",
+         "sets": "5–6 km — sac 5 kg",
          "rest": "—",
          "note": "5,5–6 km/h sur plat. Eau 500 ml. Sangles vérifiées à mi-parcours."
         },
@@ -1096,7 +1071,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
         {
          "ex": "Tractions négatives",
          "id": "neg",
-         "sets": "5 × 3 (descente 6 s)",
+         "sets": "4 × 4 (descente 5 s)",
          "rest": "2 min",
          "note": "Si la descente passe sous 3 s, arrêter le bloc."
         }
@@ -1108,14 +1083,14 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
         {
          "ex": "Rowing 1 bras (haltère ou sac par la poignée)",
          "id": "row",
-         "sets": "4 × 10 / bras — 12 kg",
+         "sets": "4 × 10 / bras — 10 kg",
          "rest": "90 s",
          "note": "Coude vers la hanche, pas de rotation du buste."
         },
         {
          "ex": "Tirage élastique 15 kg assis",
          "id": "row_band",
-         "sets": "4 × 12",
+         "sets": "4 × 12 (sans élastique : rowing serviette 4 × 10)",
          "rest": "60 s",
          "note": "Buste droit, 1 s omoplates serrées."
         }
@@ -1127,7 +1102,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
         {
          "ex": "Face pull élastique 10 kg",
          "id": "facepull",
-         "sets": "3 × 15",
+         "sets": "3 × 15 (sans élastique : Y-T-W 2 × 8)",
          "rest": "45 s",
          "note": "Coudes hauts."
         },
@@ -1173,7 +1148,8 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
       }
      ],
      "notes": [
-      "Pas d'échec. Sans haltères : rowing = sac 10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés."
+      "Pas d'échec. Sans haltères : rowing = sac 8–10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés.",
+      "Sans élastiques : pull-apart et dislocations → cercles de bras + scap push-ups 2 × 10 ; tirage → rowing serviette ; face pull → Y-T-W ; curl → sac 6 kg. Sans barre : négatives → rowing sac 2 séries de plus, suspension → tenue sac 10 kg à bout de bras 2 × 30 s / main."
      ]
     },
     {
@@ -1390,7 +1366,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
         {
          "ex": "Marche",
          "id": "walk",
-         "sets": "40 min — sac 6 kg — chaussures de sport — un peu de dénivelé",
+         "sets": "35 min — sac 5 kg — chaussures de sport — un peu de dénivelé",
          "rest": "—",
          "note": "Sac haut et collé au dos. Noter frottements et épaules."
         },
@@ -1412,38 +1388,11 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
     {
      "day": "Samedi",
      "date": "2026-10-24",
-     "title": "Court",
-     "type": "short",
-     "duration": "15 min",
-     "goal": "Fréquence tractions/pompes. Si sortie longue dimanche : repos complet à la place.",
-     "blocks": [
-      {
-       "title": "Séance",
-       "items": [
-        {
-         "ex": "Suspension à la barre",
-         "id": "hang",
-         "sets": "2 × 20 s",
-         "rest": "30 s",
-         "note": ""
-        },
-        {
-         "ex": "Tractions assistées (élastique 15 kg sous un pied)",
-         "id": "assist",
-         "sets": "4 × 6 — élastique 15 kg",
-         "rest": "2 min",
-         "note": "Menton au-dessus, descente 2 s."
-        },
-        {
-         "ex": "Pompes",
-         "id": "pushup",
-         "sets": "3 × 8",
-         "rest": "90 s",
-         "note": "Loin de l'échec."
-        }
-       ]
-      }
-     ],
+     "title": "Repos (sortie longue demain)",
+     "type": "rest",
+     "duration": "",
+     "goal": "Repos complet : la sortie longue de dimanche remplace la séance courte.",
+     "blocks": [],
      "notes": []
     },
     {
@@ -1452,7 +1401,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
      "title": "Sortie longue",
      "type": "walk",
      "duration": "0–75 min",
-     "goal": "Sortie longue : marche 7 km — sac 6 kg — chaussures de sport. Samedi = repos complet.",
+     "goal": "Sortie longue : marche 7 km — sac 5 kg — chaussures de sport. Samedi = repos complet.",
      "blocks": [
       {
        "title": "Sortie longue",
@@ -1460,7 +1409,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
         {
          "ex": "Marche avec sac",
          "id": "walk",
-         "sets": "7 km — sac 6 kg",
+         "sets": "7 km — sac 5 kg",
          "rest": "—",
          "note": "5,5–6 km/h sur plat. Eau 500 ml. Sangles vérifiées à mi-parcours."
         },
@@ -1614,7 +1563,8 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
       }
      ],
      "notes": [
-      "Pas d'échec. Sans haltères : rowing = sac 10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés."
+      "Pas d'échec. Sans haltères : rowing = sac 8–10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés.",
+      "Sans élastiques : pull-apart et dislocations → cercles de bras + scap push-ups 2 × 10 ; tirage → rowing serviette ; face pull → Y-T-W ; curl → sac 6 kg. Sans barre : négatives → rowing sac 2 séries de plus, suspension → tenue sac 10 kg à bout de bras 2 × 30 s / main."
      ]
     },
     {
@@ -4665,8 +4615,9 @@ const BUILTIN = JSON.parse(document.getElementById('plan-data').textContent);
 const LS_LOG = 'fge.log.v1', LS_PLAN = 'fge.plan.v1';
 let PLAN = BUILTIN;
 try{ const o = localStorage.getItem(LS_PLAN); if(o){ const p = JSON.parse(o); if(p && p.weeks) PLAN = p; } }catch(e){}
-let LOG = {sessions:{}, tests:[], weights:[]};
+let LOG = {sessions:{}, tests:[], weights:[], swaps:[], extras:[]};
 try{ const s = localStorage.getItem(LS_LOG); if(s){ LOG = Object.assign(LOG, JSON.parse(s)); } }catch(e){}
+LOG.swaps = LOG.swaps||[]; LOG.extras = LOG.extras||[];
 function save(){ try{ localStorage.setItem(LS_LOG, JSON.stringify(LOG)); }catch(e){ toast('Sauvegarde impossible (stockage plein ou bloqué)'); } }
 
 const $ = s => document.querySelector(s);
@@ -4677,7 +4628,13 @@ const fmtD = s => { const d = new Date(s+'T00:00:00'); return d.toLocaleDateStri
 const weeks = PLAN.weeks;
 function weekFor(dateStr){ return weeks.find(w => dateStr >= w.start && dateStr <= w.end); }
 function currentWeekNum(){ const w = weekFor(todayISO()); if(w) return w.num; return todayISO() < weeks[0].start ? 1 : weeks.length; }
-function dayOf(dateStr){ const w = weekFor(dateStr); if(!w) return null; return w.days.find(d => d.date===dateStr); }
+const SWAP_FIELDS = ['title','type','duration','goal','blocks','notes'];
+function effectiveDays(w){ const days = w.days.map(d=>Object.assign({}, d));
+  LOG.swaps.forEach(([a,b])=>{ const da = days.find(d=>d.date===a), db = days.find(d=>d.date===b); if(!da||!db) return; SWAP_FIELDS.forEach(f=>{ const t=da[f]; da[f]=db[f]; db[f]=t; }); da.swapped=db.swapped=true; });
+  return days; }
+function dayOf(dateStr){ const w = weekFor(dateStr); if(!w) return null; return effectiveDays(w).find(d => d.date===dateStr); }
+function extrasIn(a,b){ return LOG.extras.filter(x=>x.date>=a&&x.date<=b).sort((x,y)=>x.date<y.date?-1:1); }
+function toggleSwap(a,b){ const i = LOG.swaps.findIndex(p=>(p[0]===a&&p[1]===b)||(p[0]===b&&p[1]===a)); if(i>=0) LOG.swaps.splice(i,1); else LOG.swaps.push([a,b]); save(); }
 const isSession = d => d && !['rest','event'].includes(d.type);
 const daysToStage = () => Math.round((new Date(PLAN.stage.start+'T00:00:00') - new Date(todayISO()+'T00:00:00'))/864e5);
 
@@ -4701,18 +4658,28 @@ $('#tplus').onclick = ()=>{ tEnd += 30000; tick(); };
 function openSheet(html){ $('#sheetbody').innerHTML = html; $('#sheet').classList.add('open'); $('#sheetbg').classList.add('open'); }
 function closeSheet(){ $('#sheet').classList.remove('open'); $('#sheetbg').classList.remove('open'); }
 $('#sheetbg').onclick = closeSheet; $('#sheetclose').onclick = closeSheet;
+function openExtra(id, defDate){ const x = id ? LOG.extras.find(e=>e.id===id) : {id:'x'+Date.now(), date: (defDate && todayISO()>=defDate && todayISO()<=weekFor(defDate).end) ? todayISO() : (defDate||todayISO()), title:'', type:'cap', dur:'', km:'', kg:'', rpe:'', note:''};
+  openSheet(`<h3>${id?'Séance ajoutée':'Ajouter une séance'}</h3><div class="form">
+    <div class="row2"><label>Date<input type="date" id="xdate" value="${esc(x.date)}"></label><label>Type<select id="xtype">${[['cap','Course à pied'],['walk','Marche / sac'],['strength','Haut du corps'],['hyrox','Hyrox'],['other','Autre']].map(([k,v])=>`<option value="${k}" ${x.type===k?'selected':''}>${v}</option>`).join('')}</select></label></div>
+    <label>Titre<input type="text" id="xtitle" value="${esc(x.title)}" placeholder="ex. Footing 6 km facile"></label>
+    <div class="row2"><label>Durée (min)<input type="number" inputmode="numeric" id="xdur" value="${esc(x.dur)}"></label><label>Effort (1–10)<input type="number" inputmode="numeric" min="1" max="10" id="xrpe" value="${esc(x.rpe)}"></label></div>
+    <div class="row2"><label>Km<input type="number" inputmode="decimal" step="0.1" id="xkm" value="${esc(x.km)}"></label><label>Charge sac (kg)<input type="number" inputmode="decimal" step="0.5" id="xkg" value="${esc(x.kg)}"></label></div>
+    <label>Notes<textarea id="xnote">${esc(x.note)}</textarea></label>
+    <button class="btn" id="xsave">Enregistrer</button>${id?'<button class="btn warn" id="xdel">Supprimer</button>':''}</div>`);
+  $('#xsave').onclick=()=>{ const o = {id:x.id, date:$('#xdate').value, type:$('#xtype').value, title:$('#xtitle').value||'Séance ajoutée', dur:$('#xdur').value, km:$('#xkm').value, kg:$('#xkg').value, rpe:$('#xrpe').value, note:$('#xnote').value}; if(!o.date){ toast('Date manquante'); return; } LOG.extras = LOG.extras.filter(e=>e.id!==x.id); LOG.extras.push(o); save(); closeSheet(); toast('Séance enregistrée'); render(); };
+  const del=$('#xdel'); if(del) del.onclick=()=>{ LOG.extras = LOG.extras.filter(e=>e.id!==x.id); save(); closeSheet(); render(); }; }
 function showEx(id){ const g = PLAN.glossary[id]; if(!g){ openSheet('<h3>Pas de fiche</h3><p class="muted">Cet exercice n\'a pas encore de fiche explicative.</p>'); return; }
   openSheet(`<h3>${esc(g.name)}</h3><p>${esc(g.how)}</p>${g.cues&&g.cues.length?'<h4>Consignes</h4><ul class="cues">'+g.cues.map(c=>'<li>'+esc(c)+'</li>').join('')+'</ul>':''}<p class="muted">${esc(g.why)}</p>`); }
 
 // ---------- summary ----------
-function weekStats(w){ const planned = w.days.filter(isSession); let done=0, km=0, skipped=0; planned.forEach(d=>{ const l=LOG.sessions[d.date]; if(l&&l.status==='done'){done++; km+= +l.km||0;} if(l&&l.status==='skip') skipped++; });
+function weekStats(w){ const planned = effectiveDays(w).filter(isSession); let done=0, km=0, skipped=0; planned.forEach(d=>{ const l=LOG.sessions[d.date]; if(l&&l.status==='done'){done++; km+= +l.km||0;} if(l&&l.status==='skip') skipped++; }); const ex = extrasIn(w.start,w.end); ex.forEach(x=>{ km += +x.km||0; });
   const ws = weightsBetween(w.start,w.end), prev = weeks[w.num-2] ? weightsBetween(weeks[w.num-2].start, weeks[w.num-2].end) : [];
   const avg = a => a.length ? a.reduce((s,x)=>s+x,0)/a.length : null;
-  return {planned:planned.length, done, skipped, km, wavg:avg(ws), pavg:avg(prev)}; }
+  return {planned:planned.length, done, skipped, km, extras:ex.length, wavg:avg(ws), pavg:avg(prev)}; }
 function weightsBetween(a,b){ return LOG.weights.filter(x=>x.date>=a&&x.date<=b).map(x=>+x.kg); }
 function lastTest(){ const t = LOG.tests.slice().sort((a,b)=>a.date<b.date?1:-1)[0]; return t||null; }
-function summaryHTML(w){ const s = weekStats(w); const kmTxt = s.km ? `, ${s.km.toLocaleString('fr-FR')} km marchés` : '';
-  const l1 = `S${w.num} : ${s.done}/${s.planned} séances faites${s.skipped?` (${s.skipped} sautée${s.skipped>1?'s':''})`:''}${kmTxt}.`;
+function summaryHTML(w){ const s = weekStats(w); const kmTxt = s.km ? `, ${s.km.toLocaleString('fr-FR')} km (marche + course)` : '';
+  const l1 = `S${w.num} : ${s.done}/${s.planned} séances faites${s.extras?` + ${s.extras} ajoutée${s.extras>1?'s':''}`:''}${s.skipped?` (${s.skipped} sautée${s.skipped>1?'s':''})`:''}${kmTxt}.`;
   let l2 = s.wavg ? `Poids moyen ${s.wavg.toFixed(1)} kg` + (s.pavg ? ` (${(s.wavg-s.pavg>=0?'+':'')}${(s.wavg-s.pavg).toFixed(1)} vs semaine précédente)` : '') : 'Pas de pesée cette semaine';
   const t = lastTest(); if(t){ const v=t.values||{}; l2 += `. Dernier test S${t.week} : ${v['Tractions strictes (reps)']||'–'} tractions, ${v['Pompes strictes (reps)']||'–'} pompes.`; } else l2 += '. Aucun test enregistré.';
   return `<div class="summary"><p>${esc(l1)}</p><p>${esc(l2)}</p></div>`; }
@@ -4726,16 +4693,18 @@ function renderHeader(){ const w = weeks[state.week-1]; const d = daysToStage();
 // ---------- views ----------
 function dayRow(d){ const l = LOG.sessions[d.date]||{}; const st = l.status==='done'?'done':(l.status==='skip'?'skip':''); const isT = d.date===todayISO();
   const cls = ['dayrow', d.type, isT?'today':''].join(' ');
-  const sub = d.type==='rest' ? 'Repos' : (d.duration||'');
+  let sub = d.type==='rest' ? 'Repos' : (d.duration||''); if(d.swapped) sub += (sub?' · ':'')+'déplacée'; if(l.doneDate && l.doneDate!==d.date) sub += (sub?' · ':'')+'faite le '+fmtD(l.doneDate);
   return `<button class="${cls}" data-date="${d.date}"><span class="d">${esc(d.day.slice(0,3))}<small>${esc(fmtD(d.date))}</small></span><span class="t">${esc(d.title)}<small>${esc(sub)}</small></span><span class="st ${st}">${st==='done'?'✓':(st==='skip'?'–':'')}</span></button>`; }
 
+function extraRow(x){ return `<button class="dayrow extra" data-extra="${esc(x.id)}"><span class="d">${esc(fmtD(x.date).split(' ')[0])}<small>${esc(fmtD(x.date).split(' ').slice(1).join(' '))}</small></span><span class="t">${esc(x.title)}<small>Ajoutée${x.dur?' · '+esc(x.dur)+' min':''}${x.km?' · '+esc(x.km)+' km':''}</small></span><span class="st done">+</span></button>`; }
+function weekRows(w, skipDate){ const days = effectiveDays(w), ex = extrasIn(w.start,w.end); let h=''; days.forEach(d=>{ if(d.date!==skipDate) h += dayRow(d); ex.filter(x=>x.date===d.date).forEach(x=>h+=extraRow(x)); }); return h + `<button class="btn ghost" data-addextra="${w.start}" style="margin-top:6px">+ Ajouter une séance</button>`; }
 function viewToday(){ const w = weekFor(todayISO()); const cur = weeks[state.week-1];
   if(!w){ return `<h2>Hors plan</h2><p class="muted">Le plan commence le ${esc(fmtD(weeks[0].start))} 2026 et finit le ${esc(fmtD(weeks[weeks.length-1].end))} 2027.</p>`+viewWeek(); }
   if(state.week!==w.num) return viewWeek();
   const d = dayOf(todayISO());
-  return summaryHTML(w) + `<h2>Aujourd'hui</h2>` + dayRow(d) + `<h3>Reste de la semaine</h3>` + w.days.filter(x=>x.date!==todayISO()).map(dayRow).join(''); }
+  return summaryHTML(w) + `<h2>Aujourd'hui</h2>` + dayRow(d) + `<h3>Reste de la semaine</h3>` + weekRows(w, todayISO()); }
 
-function viewWeek(){ const w = weeks[state.week-1]; return summaryHTML(w) + `<h2>Semaine</h2>` + (w.detailed?'':'<p class="muted">Semaine en structure : les fiches détaillées seront générées à la mise à jour du plan.</p>') + w.days.map(dayRow).join(''); }
+function viewWeek(){ const w = weeks[state.week-1]; return summaryHTML(w) + `<h2>Semaine</h2>` + (w.detailed?'':'<p class="muted">Semaine en structure : les fiches détaillées seront générées à la mise à jour du plan.</p>') + weekRows(w); }
 
 function cnt(v,N){ if(v===true) return N||1; return typeof v==='number' ? v : 0; }
 function viewSession(){ const d = dayOf(state.date); if(!d) return '<p>Jour introuvable.</p>'; const l = LOG.sessions[d.date] || {items:{}}; l.items = l.items||{};
@@ -4751,6 +4720,7 @@ function viewSession(){ const d = dayOf(state.date); if(!d) return '<p>Jour intr
     <div class="row2"><label>Effort ressenti (1–10)<input type="number" inputmode="numeric" min="1" max="10" id="rpe" value="${l.rpe||''}"></label><label>Durée réelle (min)<input type="number" inputmode="numeric" id="dur" value="${l.dur||''}"></label></div>
     ${true?`<div class="row2"><label>Km marchés<input type="number" inputmode="decimal" step="0.1" id="km" value="${l.km||''}"></label><label>Charge sac (kg)<input type="number" inputmode="decimal" step="0.5" id="kg" value="${l.kg||''}"></label></div>`:''}
     <label>Notes (charges, reps, douleurs, pieds, sommeil)<textarea id="note">${esc(l.note||'')}</textarea></label>
+    <div class="row2"><label>Faite le (si un autre jour)<input type="date" id="donedate" value="${l.doneDate||d.date}"></label><label>Échanger avec<select id="swap"><option value="">—</option>${effectiveDays(weekFor(d.date)).filter(x=>x.date!==d.date).map(x=>`<option value="${x.date}">${esc(x.day.slice(0,3))} — ${esc(x.title)}</option>`).join('')}</select></label></div>
     <button class="btn" id="savesess">Enregistrer</button></div>`;
   return h; }
 
@@ -4775,7 +4745,7 @@ function viewMore(){ const ids = Object.keys(PLAN.glossary).sort((a,b)=>PLAN.glo
     <button class="btn" id="export">Exporter mes données (JSON)</button>
     <label>Importer des données<input type="file" accept=".json,application/json" id="import"></label>
     <label>Charger un nouveau plan (plan.json)<input type="file" accept=".json,application/json" id="loadplan"></label>
-    <p class="muted">Plan actuel : version ${esc(PLAN.version)}${PLAN!==BUILTIN?' (chargé)':' (intégré)'}. Données : ${Object.keys(LOG.sessions).length} séances, ${LOG.tests.length} tests, ${LOG.weights.length} pesées.</p>
+    <p class="muted">Plan actuel : version ${esc(PLAN.version)}${PLAN!==BUILTIN?' (chargé)':' (intégré)'}. Données : ${Object.keys(LOG.sessions).length} séances, ${LOG.extras.length} ajoutées, ${LOG.tests.length} tests, ${LOG.weights.length} pesées.</p>
     <button class="btn warn" id="resetplan">Revenir au plan intégré</button>
     <button class="btn warn" id="reset">Effacer toutes mes données</button></div>
     <h2>Fiches exercices</h2>` + ids.map(id=>`<button class="gl-item" data-ex="${esc(id)}">${esc(PLAN.glossary[id].name)}<small>${esc(PLAN.glossary[id].how.slice(0,90))}…</small></button>`).join(''); }
@@ -4789,6 +4759,9 @@ function render(){ renderHeader(); const v = $('#view');
 function bind(){ const v = $('#view');
   v.querySelectorAll('[data-date]').forEach(b=>b.onclick=()=>{ const d = dayOf(b.dataset.date); if(!d || d.type==='rest' && !d.blocks.length) { if(d) toggleRest(d); return; } state.date=b.dataset.date; state.view='session'; render(); });
   v.querySelectorAll('[data-back]').forEach(b=>b.onclick=()=>{ state.view='week'; render(); });
+  const swp = $('#swap'); if(swp) swp.onchange=()=>{ if(!swp.value) return; toggleSwap(state.date, swp.value); toast('Séances échangées'); state.view='week'; render(); };
+  v.querySelectorAll('[data-addextra]').forEach(b=>b.onclick=()=>openExtra(null, b.dataset.addextra));
+  v.querySelectorAll('[data-extra]').forEach(b=>b.onclick=()=>openExtra(b.dataset.extra));
   v.querySelectorAll('[data-ex]').forEach(b=>b.onclick=()=>showEx(b.dataset.ex));
   v.querySelectorAll('[data-rest]').forEach(b=>b.onclick=()=>startTimer(+b.dataset.rest, b.dataset.lbl));
   v.querySelectorAll('[data-chk]').forEach(b=>b.onclick=()=>{ const l = LOG.sessions[state.date] = LOG.sessions[state.date]||{items:{}}; l.items=l.items||{}; const i=b.dataset.chk, N=+b.dataset.n;
@@ -4798,15 +4771,15 @@ function bind(){ const v = $('#view');
   v.querySelectorAll('[data-work]').forEach(b=>b.onclick=()=>startTimer(+b.dataset.work, b.dataset.lbl, true));
   const st = $('#status'); if(st) st.querySelectorAll('button').forEach(b=>b.onclick=()=>{ st.querySelectorAll('button').forEach(x=>x.classList.remove('on')); b.classList.add('on'); });
   const ss = $('#savesess'); if(ss) ss.onclick=()=>{ const l = LOG.sessions[state.date] = LOG.sessions[state.date]||{items:{}}; const on = st.querySelector('button.on'); l.status = on?on.dataset.s:''; if(!l.status) delete l.status;
-    ['rpe','dur','km','kg'].forEach(k=>{ const e=$('#'+k); if(e) l[k]=e.value===''?undefined:+e.value; }); l.note=$('#note').value; if(l.status==='done'&&!l.date) l.date=todayISO(); save(); toast('Séance enregistrée'); state.view='week'; render(); };
+    ['rpe','dur','km','kg'].forEach(k=>{ const e=$('#'+k); if(e) l[k]=e.value===''?undefined:+e.value; }); l.note=$('#note').value; const dd=$('#donedate').value; l.doneDate = (dd && dd!==state.date) ? dd : undefined; if(l.status==='done'&&!l.date) l.date=todayISO(); save(); toast('Séance enregistrée'); state.view='week'; render(); };
   const stt = $('#savetest'); if(stt) stt.onclick=()=>{ const week=+$('#tweek').value, date=$('#tdate').value; const values={}; v.querySelectorAll('[data-t]').forEach(i=>{ if(i.value!=='') values[i.dataset.t]=+i.value; }); if(!Object.keys(values).length){ toast('Aucune valeur saisie'); return; } LOG.tests = LOG.tests.filter(x=>x.week!==week); LOG.tests.push({week,date,values}); save(); toast('Test enregistré'); render(); };
   const sw = $('#savew'); if(sw) sw.onclick=()=>{ const date=$('#wdate').value, kg=+$('#wkg').value; if(!kg||!date){ toast('Poids ou date manquant'); return; } LOG.weights = LOG.weights.filter(x=>x.date!==date); LOG.weights.push({date,kg}); save(); toast('Pesée enregistrée'); render(); };
   v.querySelectorAll('[data-delw]').forEach(b=>b.onclick=()=>{ LOG.weights = LOG.weights.filter(x=>x.date!==b.dataset.delw); save(); render(); });
   const ex = $('#export'); if(ex) ex.onclick=()=>{ const out = {exported: new Date().toISOString(), planVersion: PLAN.version, log: LOG}; const blob = new Blob([JSON.stringify(out,null,1)],{type:'application/json'}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='fge-export-'+todayISO()+'.json'; document.body.appendChild(a); a.click(); a.remove(); toast('Export téléchargé'); };
-  const im = $('#import'); if(im) im.onchange=()=>readJSON(im.files[0], o=>{ const l = o.log||o; if(!l.sessions){ toast('Fichier non reconnu'); return; } LOG = {sessions:l.sessions||{}, tests:l.tests||[], weights:l.weights||[]}; save(); toast('Données importées'); render(); });
+  const im = $('#import'); if(im) im.onchange=()=>readJSON(im.files[0], o=>{ const l = o.log||o; if(!l.sessions){ toast('Fichier non reconnu'); return; } LOG = {sessions:l.sessions||{}, tests:l.tests||[], weights:l.weights||[], swaps:l.swaps||[], extras:l.extras||[]}; save(); toast('Données importées'); render(); });
   const lp = $('#loadplan'); if(lp) lp.onchange=()=>readJSON(lp.files[0], o=>{ if(!o.weeks||!o.glossary){ toast('Ce fichier n\'est pas un plan'); return; } localStorage.setItem(LS_PLAN, JSON.stringify(o)); location.reload(); });
   const rp = $('#resetplan'); if(rp) rp.onclick=()=>{ localStorage.removeItem(LS_PLAN); location.reload(); };
-  const rs = $('#reset'); if(rs) rs.onclick=()=>{ if(confirm('Effacer toutes les séances, tests et pesées ? Exporte d\'abord si tu veux garder une copie.')){ LOG={sessions:{},tests:[],weights:[]}; save(); render(); } };
+  const rs = $('#reset'); if(rs) rs.onclick=()=>{ if(confirm('Effacer toutes les séances, tests et pesées ? Exporte d\'abord si tu veux garder une copie.')){ LOG={sessions:{},tests:[],weights:[],swaps:[],extras:[]}; save(); render(); } };
 }
 function toggleRest(d){ const l = LOG.sessions[d.date] = LOG.sessions[d.date]||{}; l.status = l.status==='done'?'':'done'; if(!l.status) delete l.status; save(); render(); }
 function readJSON(f, cb){ if(!f) return; const r = new FileReader(); r.onload = ()=>{ try{ cb(JSON.parse(r.result)); }catch(e){ toast('JSON invalide'); } }; r.readAsText(f); }

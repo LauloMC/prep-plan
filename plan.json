@@ -1,5 +1,5 @@
 {
- "version": "2026-10-07",
+ "version": "2026-10-13",
  "nutrition": [
   "Petit-déjeuner, tous les jours : tartines + 1 œuf + 20 g de whey isolate dans du lait froid (≈ 30 g de protéines). Pas dans le café chaud : ça floconne.",
   "Déjeuner et dîner : une portion de protéines de la taille de la paume (viande, poisson, œufs, tofu, légumineuses) ≈ 25–30 g.",
@@ -148,7 +148,8 @@
       }
      ],
      "notes": [
-      "Pas d'échec. Sans haltères : rowing = sac 10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés."
+      "Pas d'échec. Sans haltères : rowing = sac 8–10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés.",
+      "Sans élastiques : pull-apart et dislocations → cercles de bras + scap push-ups 2 × 10 ; tirage → rowing serviette ; face pull → Y-T-W ; curl → sac 6 kg. Sans barre : négatives → rowing sac 2 séries de plus, suspension → tenue sac 10 kg à bout de bras 2 × 30 s / main."
      ]
     },
     {
@@ -390,7 +391,7 @@
      "title": "Court",
      "type": "short",
      "duration": "15 min",
-     "goal": "Fréquence tractions/pompes. Si sortie longue dimanche : repos complet à la place.",
+     "goal": "Fréquence tractions/pompes.",
      "blocks": [
       {
        "title": "Séance",
@@ -442,7 +443,7 @@
   {
    "num": 2,
    "bloc": "1 Base 1",
-   "goal": "Même structure, +1 rep partout. Première sortie longue dimanche.",
+   "goal": "Reprise : séance A au niveau S1 (aucune traction faite en S1), première marche avec sac vendredi, première sortie longue dimanche. Peser 2–3 fois cette semaine.",
    "detailed": true,
    "days": [
     {
@@ -492,7 +493,7 @@
         {
          "ex": "Tractions négatives",
          "id": "neg",
-         "sets": "4 × 4 (descente 5 s)",
+         "sets": "4 × 3 (descente 5 s)",
          "rest": "2 min",
          "note": "Si la descente passe sous 3 s, arrêter le bloc."
         }
@@ -504,14 +505,14 @@
         {
          "ex": "Rowing 1 bras (haltère ou sac par la poignée)",
          "id": "row",
-         "sets": "3 × 12 / bras — 10 kg",
+         "sets": "3 × 12 / bras — 8–10 kg",
          "rest": "90 s",
          "note": "Coude vers la hanche, pas de rotation du buste."
         },
         {
          "ex": "Tirage élastique 15 kg assis",
          "id": "row_band",
-         "sets": "3 × 12",
+         "sets": "3 × 12 (sans élastique : rowing serviette 3 × 10)",
          "rest": "60 s",
          "note": "Buste droit, 1 s omoplates serrées."
         }
@@ -523,14 +524,14 @@
         {
          "ex": "Face pull élastique 10 kg",
          "id": "facepull",
-         "sets": "3 × 15",
+         "sets": "3 × 15 (sans élastique : Y-T-W 2 × 8)",
          "rest": "45 s",
          "note": "Coudes hauts."
         },
         {
          "ex": "Curl biceps élastique 15 kg ou haltères 2 × 5 kg",
          "id": "curl",
-         "sets": "3 × 12",
+         "sets": "3 × 12 (sans élastique : curl sac 6 kg à deux mains)",
          "rest": "60 s",
          "note": "Descente 3 s."
         }
@@ -569,43 +570,42 @@
       }
      ],
      "notes": [
-      "Pas d'échec. Sans haltères : rowing = sac 10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés."
+      "Pas d'échec. Sans haltères : rowing = sac 8–10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés.",
+      "Sans élastiques : pull-apart et dislocations → cercles de bras + scap push-ups 2 × 10 ; tirage → rowing serviette ; face pull → Y-T-W ; curl → sac 6 kg. Sans barre : négatives → rowing sac 2 séries de plus, suspension → tenue sac 10 kg à bout de bras 2 × 30 s / main."
      ]
     },
     {
      "day": "Mardi",
      "date": "2026-10-13",
-     "title": "Hyrox",
-     "type": "hyrox",
-     "duration": "séance Hyrox",
-     "goal": "Rien d'autre.",
+     "title": "Marche sac 5 kg (Hyrox annulé)",
+     "type": "walk",
+     "duration": "45 min",
+     "goal": "Remplace l'Hyrox annulé : première marche avec sac, sans fatiguer les jambes avant jeudi.",
      "blocks": [
       {
-       "title": "Option matin (5 min)",
+       "title": "Marche",
        "items": [
         {
-         "ex": "Pompes faciles",
-         "id": "ggt",
-         "sets": "2 × 6",
-         "rest": "2 min",
-         "note": "Sauter si fatigue."
-        }
-       ]
-      },
-      {
-       "title": "Autour de l'Hyrox",
-       "items": [
+         "ex": "Marche — sac 5 kg — chaussures de sport — plat ou léger dénivelé",
+         "id": "walk",
+         "sets": "40 min",
+         "rest": "—",
+         "note": "6 km/h. Sac haut et collé au dos, sangles serrées. Noter frottements et épaules."
+        },
         {
-         "ex": "Avant : ~50 g glucides 1–2 h avant · Après : whey 25–30 g + glucides",
-         "id": "hyrox",
-         "sets": "—",
+         "ex": "Étirements mollets + ischios, regarder les pieds",
+         "id": "stretch",
+         "sets": "5 min",
          "rest": "—",
          "note": ""
         }
        ]
       }
      ],
-     "notes": []
+     "notes": [
+      "Pas de 5 km test : inutile pour l'objectif et coûteux avant l'Hyrox de jeudi.",
+      "Vendredi : séance C normale (dos 20' + marche 30')."
+     ]
     },
     {
      "day": "Mercredi",
@@ -786,7 +786,7 @@
         {
          "ex": "Marche",
          "id": "walk",
-         "sets": "35 min — sac 5 kg — chaussures de sport — plat",
+         "sets": "30 min — sac 5 kg — chaussures de sport — plat",
          "rest": "—",
          "note": "Sac haut et collé au dos. Noter frottements et épaules."
         },
@@ -808,38 +808,11 @@
     {
      "day": "Samedi",
      "date": "2026-10-17",
-     "title": "Court",
-     "type": "short",
-     "duration": "15 min",
-     "goal": "Fréquence tractions/pompes. Si sortie longue dimanche : repos complet à la place.",
-     "blocks": [
-      {
-       "title": "Séance",
-       "items": [
-        {
-         "ex": "Suspension à la barre",
-         "id": "hang",
-         "sets": "2 × 20 s",
-         "rest": "30 s",
-         "note": ""
-        },
-        {
-         "ex": "Tractions assistées (élastique 15 kg sous un pied)",
-         "id": "assist",
-         "sets": "3 × 6 — élastique 15 kg",
-         "rest": "2 min",
-         "note": "Menton au-dessus, descente 2 s."
-        },
-        {
-         "ex": "Pompes",
-         "id": "pushup",
-         "sets": "3 × 7",
-         "rest": "90 s",
-         "note": "Loin de l'échec."
-        }
-       ]
-      }
-     ],
+     "title": "Repos (sortie longue demain)",
+     "type": "rest",
+     "duration": "",
+     "goal": "Repos complet : la sortie longue de dimanche remplace la séance courte.",
+     "blocks": [],
      "notes": []
     },
     {
@@ -848,7 +821,7 @@
      "title": "Sortie longue",
      "type": "walk",
      "duration": "0–75 min",
-     "goal": "Sortie longue : marche 6 km — sac 5 kg — chaussures de sport — 5,5–6 km/h. Samedi = repos complet.",
+     "goal": "Sortie longue : marche 5–6 km — sac 5 kg — chaussures de sport — 5,5–6 km/h. Samedi = repos complet.",
      "blocks": [
       {
        "title": "Sortie longue",
@@ -856,7 +829,7 @@
         {
          "ex": "Marche avec sac",
          "id": "walk",
-         "sets": "6 km — sac 5 kg",
+         "sets": "5–6 km — sac 5 kg",
          "rest": "—",
          "note": "5,5–6 km/h sur plat. Eau 500 ml. Sangles vérifiées à mi-parcours."
         },
@@ -940,7 +913,7 @@
         {
          "ex": "Tractions négatives",
          "id": "neg",
-         "sets": "5 × 3 (descente 6 s)",
+         "sets": "4 × 4 (descente 5 s)",
          "rest": "2 min",
          "note": "Si la descente passe sous 3 s, arrêter le bloc."
         }
@@ -952,14 +925,14 @@
         {
          "ex": "Rowing 1 bras (haltère ou sac par la poignée)",
          "id": "row",
-         "sets": "4 × 10 / bras — 12 kg",
+         "sets": "4 × 10 / bras — 10 kg",
          "rest": "90 s",
          "note": "Coude vers la hanche, pas de rotation du buste."
         },
         {
          "ex": "Tirage élastique 15 kg assis",
          "id": "row_band",
-         "sets": "4 × 12",
+         "sets": "4 × 12 (sans élastique : rowing serviette 4 × 10)",
          "rest": "60 s",
          "note": "Buste droit, 1 s omoplates serrées."
         }
@@ -971,7 +944,7 @@
         {
          "ex": "Face pull élastique 10 kg",
          "id": "facepull",
-         "sets": "3 × 15",
+         "sets": "3 × 15 (sans élastique : Y-T-W 2 × 8)",
          "rest": "45 s",
          "note": "Coudes hauts."
         },
@@ -1017,7 +990,8 @@
       }
      ],
      "notes": [
-      "Pas d'échec. Sans haltères : rowing = sac 10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés."
+      "Pas d'échec. Sans haltères : rowing = sac 8–10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés.",
+      "Sans élastiques : pull-apart et dislocations → cercles de bras + scap push-ups 2 × 10 ; tirage → rowing serviette ; face pull → Y-T-W ; curl → sac 6 kg. Sans barre : négatives → rowing sac 2 séries de plus, suspension → tenue sac 10 kg à bout de bras 2 × 30 s / main."
      ]
     },
     {
@@ -1234,7 +1208,7 @@
         {
          "ex": "Marche",
          "id": "walk",
-         "sets": "40 min — sac 6 kg — chaussures de sport — un peu de dénivelé",
+         "sets": "35 min — sac 5 kg — chaussures de sport — un peu de dénivelé",
          "rest": "—",
          "note": "Sac haut et collé au dos. Noter frottements et épaules."
         },
@@ -1256,38 +1230,11 @@
     {
      "day": "Samedi",
      "date": "2026-10-24",
-     "title": "Court",
-     "type": "short",
-     "duration": "15 min",
-     "goal": "Fréquence tractions/pompes. Si sortie longue dimanche : repos complet à la place.",
-     "blocks": [
-      {
-       "title": "Séance",
-       "items": [
-        {
-         "ex": "Suspension à la barre",
-         "id": "hang",
-         "sets": "2 × 20 s",
-         "rest": "30 s",
-         "note": ""
-        },
-        {
-         "ex": "Tractions assistées (élastique 15 kg sous un pied)",
-         "id": "assist",
-         "sets": "4 × 6 — élastique 15 kg",
-         "rest": "2 min",
-         "note": "Menton au-dessus, descente 2 s."
-        },
-        {
-         "ex": "Pompes",
-         "id": "pushup",
-         "sets": "3 × 8",
-         "rest": "90 s",
-         "note": "Loin de l'échec."
-        }
-       ]
-      }
-     ],
+     "title": "Repos (sortie longue demain)",
+     "type": "rest",
+     "duration": "",
+     "goal": "Repos complet : la sortie longue de dimanche remplace la séance courte.",
+     "blocks": [],
      "notes": []
     },
     {
@@ -1296,7 +1243,7 @@
      "title": "Sortie longue",
      "type": "walk",
      "duration": "0–75 min",
-     "goal": "Sortie longue : marche 7 km — sac 6 kg — chaussures de sport. Samedi = repos complet.",
+     "goal": "Sortie longue : marche 7 km — sac 5 kg — chaussures de sport. Samedi = repos complet.",
      "blocks": [
       {
        "title": "Sortie longue",
@@ -1304,7 +1251,7 @@
         {
          "ex": "Marche avec sac",
          "id": "walk",
-         "sets": "7 km — sac 6 kg",
+         "sets": "7 km — sac 5 kg",
          "rest": "—",
          "note": "5,5–6 km/h sur plat. Eau 500 ml. Sangles vérifiées à mi-parcours."
         },
@@ -1458,7 +1405,8 @@
       }
      ],
      "notes": [
-      "Pas d'échec. Sans haltères : rowing = sac 10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés."
+      "Pas d'échec. Sans haltères : rowing = sac 8–10 kg par la poignée ; farmer's walk = 2 sacs de courses lestés.",
+      "Sans élastiques : pull-apart et dislocations → cercles de bras + scap push-ups 2 × 10 ; tirage → rowing serviette ; face pull → Y-T-W ; curl → sac 6 kg. Sans barre : négatives → rowing sac 2 séries de plus, suspension → tenue sac 10 kg à bout de bras 2 × 30 s / main."
      ]
     },
     {
