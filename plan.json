@@ -1,5 +1,5 @@
 {
- "version": "2026-10-13",
+ "version": "2026-10-19b",
  "nutrition": [
   "Petit-déjeuner, tous les jours : tartines + 1 œuf + 20 g de whey isolate dans du lait froid (≈ 30 g de protéines). Pas dans le café chaud : ça floconne.",
   "Déjeuner et dîner : une portion de protéines de la taille de la paume (viande, poisson, œufs, tofu, légumineuses) ≈ 25–30 g.",
@@ -856,12 +856,47 @@
   {
    "num": 3,
    "bloc": "1 Base 1",
-   "goal": "Semaine la plus chargée du bloc. Si fatigue anormale (sommeil, courbatures > 48 h), retirer 1 série par exercice.",
+   "goal": "Priorité absolue : marcher avec le sac (0 km en 2 semaines). C vendredi (ou jeudi si Hyrox vendredi) + sortie dimanche, non négociables. Si C saute : la faire samedi et garder dimanche. Peser 3 matins : le test S4 a besoin d'une référence.",
    "detailed": true,
    "days": [
     {
      "day": "Lundi",
      "date": "2026-10-19",
+     "title": "Hyrox",
+     "type": "hyrox",
+     "duration": "séance Hyrox",
+     "goal": "Hyrox faite lundi cette semaine ; la séance A passe à mardi.",
+     "blocks": [
+      {
+       "title": "Option matin (5 min)",
+       "items": [
+        {
+         "ex": "Pompes faciles",
+         "id": "ggt",
+         "sets": "2 × 6",
+         "rest": "2 min",
+         "note": "Sauter si fatigue."
+        }
+       ]
+      },
+      {
+       "title": "Autour de l'Hyrox",
+       "items": [
+        {
+         "ex": "Avant : ~50 g glucides 1–2 h avant · Après : whey 25–30 g + glucides",
+         "id": "hyrox",
+         "sets": "—",
+         "rest": "—",
+         "note": ""
+        }
+       ]
+      }
+     ],
+     "notes": []
+    },
+    {
+     "day": "Mardi",
+     "date": "2026-10-20",
      "title": "Séance A — Tirage & prise",
      "type": "strength",
      "duration": "50 min",
@@ -995,41 +1030,6 @@
      ]
     },
     {
-     "day": "Mardi",
-     "date": "2026-10-20",
-     "title": "Hyrox",
-     "type": "hyrox",
-     "duration": "séance Hyrox",
-     "goal": "Rien d'autre.",
-     "blocks": [
-      {
-       "title": "Option matin (5 min)",
-       "items": [
-        {
-         "ex": "Pompes faciles",
-         "id": "ggt",
-         "sets": "2 × 6",
-         "rest": "2 min",
-         "note": "Sauter si fatigue."
-        }
-       ]
-      },
-      {
-       "title": "Autour de l'Hyrox",
-       "items": [
-        {
-         "ex": "Avant : ~50 g glucides 1–2 h avant · Après : whey 25–30 g + glucides",
-         "id": "hyrox",
-         "sets": "—",
-         "rest": "—",
-         "note": ""
-        }
-       ]
-      }
-     ],
-     "notes": []
-    },
-    {
      "day": "Mercredi",
      "date": "2026-10-21",
      "title": "Séance B — Poussée, épaules, cou",
@@ -1119,7 +1119,7 @@
         {
          "ex": "Touchers d'épaules, gilet 6 kg",
          "id": "touch",
-         "sets": "3 × 20 — gilet 6 kg",
+         "sets": "3 × 18 — gilet 10 kg",
          "rest": "60 s",
          "note": "Bassin immobile."
         },
@@ -1224,7 +1224,8 @@
      ],
      "notes": [
       "Chaussures de sport jusqu'en S5 ; rangers à partir de S6.",
-      "Si sortie longue dimanche et grosse fatigue : raccourcir à 20 min, ne pas supprimer."
+      "Si sortie longue dimanche et grosse fatigue : raccourcir à 20 min, ne pas supprimer.",
+      "Si l'Hyrox tombe ce jour : faire cette séance la veille ou le samedi (dos 15 min + marche), jamais la supprimer. Deux marches de suite à 5 kg ne posent aucun problème."
      ]
     },
     {
